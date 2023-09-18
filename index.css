@@ -30,6 +30,11 @@ body {
     top: -15px;
     left: 0;
   }
+
+  .logo_one{
+    width: 200px;
+    height: 200px;
+  }
   
   
   .line {
@@ -197,6 +202,8 @@ body {
   
   .photo {
     margin-left: 7%;
+    width: 1400px;
+    height: auto;
   }
   
   .job {
@@ -731,18 +738,26 @@ body {
     li {
       list-style-type: none;
     }
+
+    .mn{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    margin-bottom: 15px;
+    }
   
     .big {
       position: relative;
       text-align: center;
-      font-size: 25px;
+      font-size: 30px;
       font-family: 'inherit';
       font-weight: bold;
       color: rgb(7, 70, 122);
       transition: all 1s;
       font-weight: bold;
       text-decoration: none;
-      left: -27%;
+      left: -29%;
     }
   
     .line {
@@ -765,7 +780,54 @@ body {
       float: left;
       margin-top: 30px;
       margin-bottom: 30px;
-      margin-left: 0px;
+      margin-left: -200px;
+    
       position: relative;
     }
+    .career{
+     margin-left: -180px;
+    }
+    .price{
+      margin-left: -190px;
+    }
+
+    .bell{
+      margin-left: -170px;
+    }
+
+    .logo{
+      margin-left: 10px;
+    }
+
+    .logo_one{
+      width: 120px;
+      height: 120px;
+    }
+
+    .photo{
+      margin-top: 500px;
+      width: 600px;
+      margin-left: 0px;
+    }
+
+    .job{
+      width: 335px;
+      height: 220px;
+    }
+
+    .job {
+      position: relative;
+      top: -975px;
+      left: 8%;
+    }
+
+
+
+.informacja_PD{
+  width: 335px;
+  height: 220px;
+  left: 8%;
+}
+
+
   }
