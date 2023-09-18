@@ -735,14 +735,14 @@ body {
     .big {
       position: relative;
       text-align: center;
-      font-size: 55px;
+      font-size: 25px;
       font-family: 'inherit';
       font-weight: bold;
       color: rgb(7, 70, 122);
       transition: all 1s;
       font-weight: bold;
       text-decoration: none;
-      left: -7%;
+      left: -27%;
     }
   
     .line {
@@ -760,4 +760,12 @@ body {
       position: relative;
     }
   
+
+    .about{
+      float: left;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-left: 0px;
+      position: relative;
+    }
   }
