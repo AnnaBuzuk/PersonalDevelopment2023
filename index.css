@@ -1043,6 +1043,11 @@ font-size: 25px;}
   
   @media screen and (min-width: 400px) and (max-width: 600px) {
   
+    body{
+      width: 600px;
+      height: auto;
+      margin-left: 2px;
+    } 
     header,
     main,
     footer {
@@ -1073,7 +1078,7 @@ margin-top: 5px;
     .big {
       position: relative;
       text-align: center;
-      font-size: 28px;
+      font-size: 30px;
       font-family: 'inherit';
       font-weight: bold;
       color: rgb(7, 70, 122);
@@ -1081,7 +1086,7 @@ margin-top: 5px;
       font-weight: bold;
       text-decoration: none;
       top: 7px;
-      left: -31%;
+      left: 3%;
     }
   
     .line {
@@ -1096,27 +1101,117 @@ margin-top: 5px;
 margin-left: 38px;
 font-size: 28px;}
 
+.first_part::after {
+  content: '';
+  position: absolute;
+  margin-bottom: -10px;
+  height: 3px;
+  background-color: rgb(36, 119, 167);
+  width: 0;
+  left: 68%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.first_part:hover {
+  color: rgb(0, 132, 255);
+}
+
+.first_part:hover::after {
+  width: 60px;
+}
+
+.second_part::after {
+  content: '';
+  position: absolute;
+  margin-bottom: -10px;
+  height: 3px;
+  background-color: rgb(36, 119, 167);
+  width: 0;
+  left: 63%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.second_part:hover {
+  color: rgb(0, 132, 255);
+}
+
+.second_part:hover::after {
+  width: 83px;
+}
+
+.thirdes_part::after {
+  content: '';
+  position: absolute;
+  margin-bottom: -10px;
+  height: 3px;
+  background-color: rgb(36, 119, 167);
+  width: 0;
+  left: 65%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.thirdes_part:hover {
+  color: rgb(0, 132, 255);
+}
+
+.thirdes_part:hover::after {
+  width: 75px;
+}
+
+
+.fifth_part::after {
+  content: '';
+  position: absolute;
+  margin-bottom: -10px;
+  height: 3px;
+  background-color: rgb(36, 119, 167);
+  width: 0;
+  left: 63%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.fifth_part:hover {
+  color: rgb(0, 132, 255);
+}
+
+.fifth_part:hover::after {
+  width: 95px;
+}
 
 
 .photo{
-  margin-top: 550px;
-  margin-left: 33px;
+  margin-top: 570px;
+  margin-left: 5px;
   height: 400px;
-  width: 450px;
+  width: 525px;
 }
 
 
 .job{
-  left:5%;
+  left:8%;
+  width: 450px;
+  height: 200px;
 }
 .informacja_PD{
-  left: 5%;
+  left: 8%;
+  width: 450px;
+  height: 200px;
   top: -950px;
 }
 
 .employee{
-  left:80px;
+  left:45px;
   top: -910px;
+  width: 450px;
+  height: 200px;
 }
 .description {
   display: none;
@@ -1132,8 +1227,8 @@ font-size: 28px;}
   .info {
     position: relative;
     top: -680px;
-    left: 7%;
-    width: 451px;
+    left: 1%;
+    width: 525px;
     height: 650px;
     background-color: rgb(17, 63, 90);
     overflow: hidden;
