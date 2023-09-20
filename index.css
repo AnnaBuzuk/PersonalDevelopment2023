@@ -521,7 +521,7 @@ li {
   left: 750px;
   font-size: 25px;
   color: rgb(7, 70, 122);
-  
+
 }
 
 
@@ -713,14 +713,18 @@ li {
 /*koniec-footer*/
 
 @media screen and (min-width: 1300px) and (max-width: 1600px) {
-  body {}
+  body {
+    width: 1550px;
+    height: auto;
+    margin-left: 20px;
+  }
 }
 
 
 
 @media screen and (min-width: 900px) and (max-width: 1300px) {
 
-  body{
+  body {
     width: 1250px;
     height: auto;
     margin-left: 20px;
@@ -865,13 +869,13 @@ li {
   .thirdes_part:hover::after {
     width: 135px;
   }
-  
+
   .photo {
     margin-left: 0%;
     width: 1250px;
     height: auto;
   }
-  
+
 
   .job {
     position: relative;
@@ -913,278 +917,280 @@ li {
     font-size: 45px;
   }
 
-  .bos_one{
-  text-align: center;
-  padding-top: 30px;
-  font-size: 45px;
-  color: white;
+  .bos_one {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+    color: white;
 
-}
+  }
 
-.PD_but {
+  .PD_but {
 
-  padding: 40px 40px;
-  margin: 20px 0px 0px 80px;
-}
+    padding: 40px 40px;
+    margin: 20px 0px 0px 80px;
+  }
 
-.bos_but{
-  padding: 40px 40px;
-  margin: 20px 0px 0px 150px;
-}
-
-
-.description {
-  height: 600px;
-  width: 1250px;
-  position: absolute;
-}
-
-.digit {
-  position: relative;
-  top: -550px;
-  margin-left:15px;
-}
-
-.digit_one {
-  font-size: 28px;
-  color: rgb(7, 70, 122);
-}
-
-.digit_two {
-  font-size: 60px;
-  color: rgb(7, 70, 122);
-}
-
-.digit_free {
-  font-size: 32px;
-  color: rgb(7, 70, 122);
-}
-
-.line_digit {
-  width: 2px;
-  height: 430px;
-  background-color: rgb(7, 70, 122);
-  position: relative;
-  top: -860px;
-  left: 450px;
-
-}
+  .bos_but {
+    padding: 40px 40px;
+    margin: 20px 0px 0px 150px;
+  }
 
 
+  .description {
+    height: 600px;
+    width: 1250px;
+    position: absolute;
+  }
 
-.count {
-  position: relative;
-  top: -1300px;
-  left: 480px;
-  font-size: 23px;
-  color: rgb(7, 70, 122);
-}
+  .digit {
+    position: relative;
+    top: -550px;
+    margin-left: 15px;
+  }
 
+  .digit_one {
+    font-size: 28px;
+    color: rgb(7, 70, 122);
+  }
 
-.count_line {
-  width: 630px;
-  height: 2px;
-  position: relative;
-  top: -1300px;
-  left: 405px;
-  background-color: rgb(7, 70, 122)
-}
+  .digit_two {
+    font-size: 60px;
+    color: rgb(7, 70, 122);
+  }
 
+  .digit_free {
+    font-size: 32px;
+    color: rgb(7, 70, 122);
+  }
 
-.quanity {
-  position: relative;
-  top: -1300px;
-  left: 480px;
-  font-size: 23px;
-  color: rgb(7, 70, 122);
-  
-}
+  .line_digit {
+    width: 2px;
+    height: 430px;
+    background-color: rgb(7, 70, 122);
+    position: relative;
+    top: -860px;
+    left: 450px;
 
-.figure_line {
-  width: 2px;
-  height: 430px;
-  position: relative;
-  top: -1730px;
-  left: 750px;
-  background-color: rgb(7, 70, 122)
-}
-
-.figure {
-  position: relative;
-  top: -2170px;
-  left: 800px;
-  font-size: 23px;
-  color: rgb(7, 70, 122);
-}
-
-.nubr {
-  position: relative;
-  top: -2130px;
-  left: 800px;
-  font-size: 23px;
-  color: rgb(7, 70, 122);
-}
-
-.info {
-  position: relative;
-  width: 1290px;
-  height: 350px;
-  background-color: rgb(17, 63, 90);
-  margin-top: 0px;
-  overflow: hidden;
-}
+  }
 
 
-.big_foot {
-  margin-top: -10px;
-  padding-left: 50px;
-  font-size: 35px;
-  font-family: 'Playfair Display', serif;
-  color: white;
-  text-decoration: none;
-}
-.guide_one {
-  position: absolute;
-  top: 35px;
-  left: 650px;
-  fill: white;
-}
 
-.guide_two {
-  width: 200px;
-  position: absolute;
-  top: 45px;
-  left: 720px;
-  color: white;
-  font-size: 28px;
-  text-decoration: none;
-}
+  .count {
+    position: relative;
+    top: -1300px;
+    left: 480px;
+    font-size: 23px;
+    color: rgb(7, 70, 122);
+  }
 
 
-.case {
-  position: absolute;
-  width: 250px;
-  height: 0px;
-  top: 80px;
-  left: 50px;
-  color: white;
-  font-size: 25px;
-}
-
-.case_one {
-  position: absolute;
-  top: 90px;
-  left: 650px;
-  fill: rgb(255, 255, 255);
-}
-
-.case_two {
-  position: absolute;
-  top: 100px;
-  left: 720px;
-  font-size: 28px;
-  color: white;
-  text-decoration: none;
-}
-
-.farther {
-  position: absolute;
-  top: 165px;
-  left: 50px;
-  fill: rgb(69, 126, 231);
-}
-.farther_one {
-  position: absolute;
-  top: 175px;
-  left: 130px;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-}
-
-.beyond {
-  position: absolute;
-  top: 170px;
-  left: 380px;
-}
+  .count_line {
+    width: 630px;
+    height: 2px;
+    position: relative;
+    top: -1300px;
+    left: 405px;
+    background-color: rgb(7, 70, 122)
+  }
 
 
-.beyond_one{
-  position: absolute;
-  top: 175px;
-  left: 450px;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-}
+  .quanity {
+    position: relative;
+    top: -1300px;
+    left: 480px;
+    font-size: 23px;
+    color: rgb(7, 70, 122);
 
-.outside{
-  position: absolute;
-  top: 240px;
-  left: 50px;
-}
+  }
 
-.outside_one {
-  position: absolute;
-  top: 250px;
-  left: 125px;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-}
+  .figure_line {
+    width: 2px;
+    height: 430px;
+    position: relative;
+    top: -1730px;
+    left: 750px;
+    background-color: rgb(7, 70, 122)
+  }
 
-.outside_two {
-  position: absolute;
-  top: 250px;
-  left: 385px;
-  fill: white;
-}
+  .figure {
+    position: relative;
+    top: -2170px;
+    left: 800px;
+    font-size: 23px;
+    color: rgb(7, 70, 122);
+  }
 
-.outside_tu_two{
-  position: absolute;
-  top: 260px;
-  left: 455px;
-  font-size: 30px;
-  color: white;
-  text-decoration: none; 
-}
+  .nubr {
+    position: relative;
+    top: -2130px;
+    left: 800px;
+    font-size: 23px;
+    color: rgb(7, 70, 122);
+  }
 
-.outside_vor{
-  position: absolute;
-  top: 238px;
-  left: 630px;
-  fill: rgb(240, 235, 241);
-}
+  .info {
+    position: relative;
+    width: 1290px;
+    height: 350px;
+    background-color: rgb(17, 63, 90);
+    margin-top: 0px;
+    overflow: hidden;
+  }
 
-.outside_to_vor {
-  position: absolute;
-  top: 260px;
-  left: 715px;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-}
 
-.outside_to_vor {
-  position: absolute;
-  top: 260px;
-  left: 720px;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-}
+  .big_foot {
+    margin-top: -10px;
+    padding-left: 50px;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+  }
 
-.outside_free{
-  left: 645px;
+  .guide_one {
+    position: absolute;
+    top: 35px;
+    left: 650px;
+    fill: white;
+  }
+
+  .guide_two {
+    width: 200px;
+    position: absolute;
+    top: 45px;
+    left: 720px;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+  }
+
+
+  .case {
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    top: 80px;
+    left: 50px;
+    color: white;
+    font-size: 25px;
+  }
+
+  .case_one {
+    position: absolute;
+    top: 90px;
+    left: 650px;
+    fill: rgb(255, 255, 255);
+  }
+
+  .case_two {
+    position: absolute;
+    top: 100px;
+    left: 720px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .farther {
+    position: absolute;
+    top: 165px;
+    left: 50px;
+    fill: rgb(69, 126, 231);
+  }
+
+  .farther_one {
+    position: absolute;
+    top: 175px;
+    left: 130px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .beyond {
+    position: absolute;
+    top: 170px;
+    left: 380px;
+  }
+
+
+  .beyond_one {
+    position: absolute;
+    top: 175px;
+    left: 450px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .outside {
+    position: absolute;
+    top: 240px;
+    left: 50px;
+  }
+
+  .outside_one {
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .outside_two {
+    position: absolute;
+    top: 250px;
+    left: 385px;
+    fill: white;
+  }
+
+  .outside_tu_two {
+    position: absolute;
+    top: 260px;
+    left: 455px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .outside_vor {
+    position: absolute;
+    top: 238px;
+    left: 630px;
+    fill: rgb(240, 235, 241);
+  }
+
+  .outside_to_vor {
+    position: absolute;
+    top: 260px;
+    left: 715px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .outside_to_vor {
+    position: absolute;
+    top: 260px;
+    left: 720px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .outside_free {
+    left: 645px;
     top: 170px;
     fill: white;
-}
+  }
 
-.outside_to_free{
-  left: 730px;
-  top: 190px;
-  font-size: 30px;
-}
+  .outside_to_free {
+    left: 730px;
+    top: 190px;
+    font-size: 30px;
+  }
 
 }
 
@@ -1220,7 +1226,7 @@ li {
   }
 
   .mn {
-     position: sticky;
+    position: sticky;
     top: 0;
     z-index: 2;
     background-color: white;
@@ -1261,7 +1267,7 @@ li {
     position: relative;
   }
 
-  
+
 
   .photo {
     margin-top: 550px;
@@ -1414,7 +1420,7 @@ li {
     width: 95px;
   }
 
- 
+
   .job {
     left: 5%;
     width: 300px;
