@@ -224,17 +224,21 @@ body{
     padding-left: 45px;
     padding-top: 10px;
     margin-bottom: 50px;
+    width: 400px;
+    height: 230px;
     }
     
     .unit_two_photo{
-    top: -955px;
+    top: -953px;
     left: 950px;
+    width: 550px;
+    height: 410px;
     }
     
     
     .unit_two_info{
     position: relative;
-    top: -1065px;
+    top: -900px;
     left: 930px;
     width: 400px;
     height: 230px;
@@ -299,8 +303,8 @@ body{
     text-align: center;
     color:white;
     position: relative;
-    top: 50px;
-    left: 55px;
+    top: 90px;
+    left: 85px;
     }
     
     /*koniec-magaziner*/
@@ -345,7 +349,7 @@ body{
     text-decoration: none;
     color:white;
     position: relative;
-    top: 50px;
+    top: 80px;
     left: 55px;
     }
     
@@ -372,7 +376,7 @@ body{
     .unit_five_info{
     position: relative;
     top: 0px;
-    left: 300px;
+    left: 250px;
     width: 400px;
     height: 230px;
     backdrop-filter: blur(15px);
@@ -385,11 +389,10 @@ body{
     .appellationfive{
     font-weight: bold;
     font-size: 40px;
-    
     color:white;
     position: relative;
-    top: 80px;
-    left: 15px;
+    top: 70px;
+    left: 75px;
     }
     
     
@@ -506,7 +509,10 @@ body{
     }
     
     .unit_eight_photo{
-    top: -204px
+    top: -204px;
+    width: 560px;
+    height: 400px;
+   
     }
     
     .unit_eight_info{
@@ -538,7 +544,7 @@ body{
     
     .conclusion_one{
     position: relative;
-    top: 1150px;
+    top: 1350px;
     
     }
     
@@ -2086,5 +2092,45 @@ body{
 
 
     }
-    @media screen and (min-width: 600px) and (max-width: 900px) {}
+    @media screen and (min-width: 600px) and (max-width: 900px) {
+      body{
+        width: 890px;
+        background-color: aqua;
+        margin-left: 1px;
+      }
+
+      header,
+      main,
+      footer {
+        overflow-x: hidden;
+      }
+    
+      ul {
+        padding-left: 0;
+      }
+    
+      li {
+        list-style-type: none;
+      }
+
+      .logo_one{
+        width: 190px;
+        height: 190px;
+      }
+    
+      .big_on{
+        font-size: 1055px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+    }
     @media screen and (min-width: 900px) and (max-width: 1300px) {}
