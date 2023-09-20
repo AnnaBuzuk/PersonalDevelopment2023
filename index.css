@@ -1086,7 +1086,7 @@ margin-top: 5px;
       font-weight: bold;
       text-decoration: none;
       top: 7px;
-      left: 3%;
+      left: 7%;
     }
   
     .line {
@@ -1098,7 +1098,7 @@ margin-top: 5px;
      .third_part, 
      .fifth_part, 
      .thirdes_part {
-margin-left: 38px;
+margin-left: 49px;
 font-size: 28px;}
 
 .first_part::after {
@@ -1189,30 +1189,63 @@ font-size: 28px;}
 
 .photo{
   margin-top: 570px;
-  margin-left: 5px;
+  margin-left: 40px;
   height: 400px;
   width: 525px;
 }
 
 
 .job{
-  left:8%;
+  left:13%;
   width: 450px;
   height: 200px;
 }
+
+.job_one {
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  font-size: 30px;
+}
+
+.job_but{
+  padding: 20px 40px;
+  margin: 10px 125px;
+  font-size: 17px;
+}
+
+.PD_but{
+
+  padding: 30px 20px;
+  margin: 5px 0px 20px 110px;
+}
+
 .informacja_PD{
-  left: 8%;
+  left: 13%;
   width: 450px;
   height: 200px;
   top: -950px;
 }
 
 .employee{
-  left:45px;
+  left:75px;
   top: -910px;
   width: 450px;
   height: 200px;
 }
+
+.bos_one {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 35px;
+  color: white;
+}
+
+.bos_but{
+  padding: 20px 30px;
+  margin: 0px 155px;
+}
+
 .description {
   display: none;
    }
@@ -1227,7 +1260,7 @@ font-size: 28px;}
   .info {
     position: relative;
     top: -680px;
-    left: 1%;
+    left: 8%;
     width: 525px;
     height: 650px;
     background-color: rgb(17, 63, 90);
