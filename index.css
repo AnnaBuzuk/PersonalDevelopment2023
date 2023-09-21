@@ -20,9 +20,6 @@ li {
   list-style-type: none;
 }
 
-
-
-
 /*header*/
 
 .logo {
@@ -201,7 +198,7 @@ li {
 
 
 
-/*blok bos*/
+/*blok-bos*/
 
 .photo {
   margin-left: 7%;
@@ -224,9 +221,6 @@ li {
   color: white;
 }
 
-
-
-
 .job_but {
   text-decoration: none;
   display: inline-block;
@@ -244,8 +238,6 @@ li {
   font-weight: bold;
   cursor: pointer;
 }
-
-
 
 .job_but:before,
 .job_but:after {
@@ -292,7 +284,6 @@ li {
   background: rgba(255, 255, 255, .2);
 }
 
-
 .informacja_PD {
   position: relative;
   top: -885px;
@@ -326,8 +317,6 @@ li {
   cursor: pointer;
   font-weight: bold;
 }
-
-
 
 .PD_but:before,
 .PD_but:after {
@@ -524,7 +513,6 @@ li {
 
 }
 
-
 .figure {
   position: relative;
   top: -2050px;
@@ -550,6 +538,7 @@ li {
   color: rgb(7, 70, 122);
 }
 
+/*koniec-opis*/
 /*footer*/
 
 .info {
@@ -712,6 +701,8 @@ li {
 
 /*koniec-footer*/
 
+/*mob-1300-1600*/
+
 @media screen and (min-width: 1300px) and (max-width: 1600px) {
   body {
     width: 1550px;
@@ -720,14 +711,14 @@ li {
   }
 }
 
-
+/*mob-900-1300*/
 
 @media screen and (min-width: 900px) and (max-width: 1300px) {
 
   body {
     width: 1250px;
     height: auto;
-    margin-left: 20px;
+    margin-left: -5px;
   }
 
   header,
@@ -744,6 +735,7 @@ li {
     list-style-type: none;
   }
 
+  /*header*/
 
   .logo_one {
     width: 210px;
@@ -870,6 +862,10 @@ li {
     width: 135px;
   }
 
+  /*koniec-header*/
+
+  /*blok-boss*/
+
   .photo {
     margin-left: 0%;
     width: 1250px;
@@ -936,6 +932,9 @@ li {
     margin: 20px 0px 0px 150px;
   }
 
+  /*koniec-blok-boss*/
+
+  /*opis*/
 
   .description {
     height: 600px;
@@ -1028,6 +1027,10 @@ li {
     font-size: 23px;
     color: rgb(7, 70, 122);
   }
+
+  /*koniec-opis*/
+
+  /*footer*/
 
   .info {
     position: relative;
@@ -1194,20 +1197,23 @@ li {
 
 }
 
+/*koniec-footer*/
 
+/*mob-600-900*/
 
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
   body {
-    width: 850px;
+    width: 880px;
     height: auto;
-    margin-left: -50%;
+    margin-left: -1px;
   }
 
   header,
   main,
   footer {
     overflow-x: hidden;
+    background-color: blue;
   }
 
   ul {
@@ -1217,6 +1223,8 @@ li {
   li {
     list-style-type: none;
   }
+
+  /*header*/
 
   .logo_one {
     width: 150px;
@@ -1250,7 +1258,7 @@ li {
   .line {
     border-bottom: 1px solid;
     color: rgb(0, 0, 0);
-    width: 700px;
+    width: 770px;
     margin-top: 75px;
     margin-left: 30px;
 
@@ -1265,20 +1273,21 @@ li {
     margin-top: 80px;
     margin-bottom: 50px;
     position: relative;
+    margin-left: 10px;
   }
 
 
 
   .photo {
     margin-top: 550px;
-    margin-left: 30px;
-    height: 400px;
-    width: 700px;
+    margin-left: 0px;
+    height: 500px;
+    width: 800px;
   }
 
 
   .job {
-    left: 2%;
+    margin-left: 0%;
     width: 250px;
     height: 250px;
     margin-top: 70px;
@@ -1309,14 +1318,14 @@ li {
 
 
   .informacja_PD {
-    left: 20%;
+    margin-left: 4%;
     top: -1250px;
     width: 250px;
     height: 250px;
   }
 
   .employee {
-    left: 180px;
+    margin-left: 30px;
     width: 250px;
     height: 250px;
     top: -1210px;
@@ -1420,6 +1429,10 @@ li {
     width: 95px;
   }
 
+  /*koniec-header*/
+
+  /*blok-boss*/
+
 
   .job {
     left: 5%;
@@ -1472,7 +1485,7 @@ li {
     margin: 0px 85px;
   }
 
-
+  /*koniec-blok-boss*/
   /*footer*/
 
   .info_mob {
@@ -1482,8 +1495,8 @@ li {
   .info {
     position: relative;
     top: -900px;
-    left: 29px;
-    width: 701px;
+    left: 5px;
+    width: 790px;
     height: 530px;
     background-color: rgb(17, 63, 90);
     overflow: hidden;
@@ -1587,14 +1600,17 @@ li {
     top: 420px;
   }
 
+  /*koniec-footer*/
+
 }
 
+/*mob-400-600*/
 @media screen and (min-width: 400px) and (max-width: 600px) {
 
   body {
-    width: 600px;
+    width: 590px;
     height: auto;
-    margin-left: 2px;
+    margin-left: -5px;
   }
 
   header,
@@ -1611,10 +1627,12 @@ li {
     list-style-type: none;
   }
 
+  /*header*/
+
   .logo_one {
     width: 105px;
     height: 105px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 5px;
   }
 
@@ -1637,7 +1655,7 @@ li {
     font-weight: bold;
     text-decoration: none;
     top: 7px;
-    left: 7%;
+    left: 2%;
   }
 
   .line {
@@ -1649,7 +1667,7 @@ li {
   .third_part,
   .fifth_part,
   .thirdes_part {
-    margin-left: 49px;
+    margin-left: 35px;
     font-size: 28px;
   }
 
@@ -1738,17 +1756,20 @@ li {
     width: 95px;
   }
 
+  /*koniec-header*/
+
+  /*blok-boss*/
 
   .photo {
     margin-top: 570px;
-    margin-left: 40px;
+    margin-left: 20px;
     height: 400px;
-    width: 525px;
+    width: 510px;
   }
 
 
   .job {
-    left: 13%;
+    left: 7%;
     width: 450px;
     height: 200px;
   }
@@ -1773,15 +1794,15 @@ li {
   }
 
   .informacja_PD {
-    left: 13%;
+    left: 7%;
     width: 450px;
     height: 200px;
     top: -950px;
   }
 
   .employee {
-    left: 75px;
-    top: -910px;
+    left: 9%;
+    top: -920px;
     width: 450px;
     height: 200px;
   }
@@ -1802,18 +1823,19 @@ li {
     display: none;
   }
 
-
+  /*koniec-blok-boss
   /*footer*/
 
   .info_mob {
     position: absolute;
+    height: 300px;
   }
 
   .info {
     position: relative;
     top: -680px;
-    left: 8%;
-    width: 525px;
+    left: 4%;
+    width: 510px;
     height: 650px;
     background-color: rgb(17, 63, 90);
     overflow: hidden;
@@ -1917,15 +1939,14 @@ li {
     top: 560px;
   }
 
-
+  /*koniec-footer*/
 }
 
-
+/*mob-200-400*/
 @media screen and (min-width: 200px) and (max-width: 400px) {
   body {
-    width: 411px;
-    height: auto;
-    margin-left: 2px;
+    width: 390px;
+    margin-left: -5px;
   }
 
 
@@ -1943,11 +1964,11 @@ li {
     list-style-type: none;
   }
 
-  .logo_one {
+  *header*/ .logo_one {
     width: 90px;
     height: 90px;
-    margin-left: 0px;
-    margin-top: 5px;
+    margin-left: -5px;
+    margin-top: 7px;
   }
 
   .mn {
@@ -1961,7 +1982,7 @@ li {
   .big {
     position: relative;
     text-align: center;
-    font-size: 21px;
+    font-size: 20px;
     font-family: 'inherit';
     font-weight: bold;
     color: rgb(7, 70, 122);
@@ -1969,7 +1990,7 @@ li {
     font-weight: bold;
     text-decoration: none;
     top: 9px;
-    left: 5%;
+    left: 7%;
   }
 
   .line {
@@ -1981,7 +2002,7 @@ li {
   .third_part,
   .fifth_part,
   .thirdes_part {
-    margin-left: 28px;
+    margin-left: 25px;
     font-size: 20px;
   }
 
@@ -2076,9 +2097,8 @@ li {
     width: 60px;
   }
 
-
-
-
+  /*koniec-header*/
+  /*blok-boss*/
 
   .photo {
     margin-top: 550px;
@@ -2086,7 +2106,6 @@ li {
     height: 400px;
     width: 380px;
   }
-
 
   .job {
     left: 4%;
@@ -2102,6 +2121,7 @@ li {
     top: -910px;
   }
 
+  /*koniec-blok-boss*/
   .description {
     display: none;
   }
@@ -2111,6 +2131,7 @@ li {
 
   .info_mob {
     position: absolute;
+    height: 250px;
   }
 
   .info {
@@ -2221,7 +2242,7 @@ li {
     top: 560px;
   }
 
-
+  /*koniec-footer*/
 
 
 
