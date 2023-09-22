@@ -174,6 +174,7 @@ body{
     /*cena-pierwsza*/
     .price_one{
     display: inline-block;
+    float: left;
     }
     
     
@@ -256,140 +257,163 @@ body{
     
     
     /*footer*/
-    
-    .info{
-    position: relative;
-    width: 1600px;
-    height: 400px;
-    background-color: rgb(36, 119, 167);
-    margin-top: 150px;
-    }
-      
-    .info_one{
-    position: absolute;
-    top: 0px;
-    left: 50px;
-    }
-      
-    .guide{
-    position: absolute;
-    top: 50px;
-    left: 1000px;
-    }
-      
-    .guide_one{
-    position: absolute;
-    top: 90px;
-    left: 1000px;
-    fill: white;
-    }
-      
-    .guide_two{
-    width: 200px;
-    position: absolute;
-    top: 100px;
-    left: 1100px;
-    color: white;
-    font-size:25px;
-    text-decoration: none;
-    }
-      
-    .case{ 
-    position: absolute;
-    width: 250px;
-    height: 0px;
-    top: 220px;
-    left: 50px;
-    color: white;
-    font-size:25px;
-    }
-      
-      
-    .case_one{
-    position: absolute;
-    top: 235px;
-    left: 280px;
-    fill: rgb(255, 255, 255);
-    }
-      
-      
-    .case_two{
-    position: absolute;
-    top: 247px;
-    left: 340px;
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    }
-      
-    .farther{
-    position: absolute;
-    top: 235px;
-    left: 820px;
-    fill: rgb(5, 45, 97);    
-    }
-      
-    .farther_one{
-    position: absolute;
-    top: 245px;
-    left: 890px; 
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    }
-    
-    .beyond{
-    position: absolute;
-    top: 235px;
-    left: 1100px; 
-    }
-      
-    .beyond_one{
-    position: absolute;
-    top: 245px;
-    left: 1160px; 
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    }
-      
-    .outside{
-    position: absolute;
-    top: 235px;
-    left: 1300px;
-    }
-      
-    .outside_one{
-    position: absolute;
-    top: 250px;
-    left: 1370px;
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    }
-      
-      
-    .f{
-    position: absolute;
-    top: 1000px;
-    left: 650px;
-    width: 450px;
-    height: 310px;
-    border-radius: 50%;
-    background-color: rgb(36, 119, 167);
-    }
-      
-      
-      
-    .big_foot{
-    padding-top: 20px;
-    padding-left: 100px;
-    font-size: 45px;
-    font-family: 'Playfair Display', serif;
-    color: rgb(7, 70, 122);
-    transition: all 1s;
-    font-weight: bold;
-    text-decoration: none;
-    }
-    
-    /*koniec-footer/
+
+.info {
+  position: relative;
+  width: 1600px;
+  height: 350px;
+  background-color: rgb(17, 63, 90);
+  margin-top: 250px;
+  overflow: hidden;
+}
+
+
+.big_foot {
+  margin-top: -10px;
+  padding-left: 180px;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-decoration: none;
+}
+
+.guide_one {
+  position: absolute;
+  top: 35px;
+  left: 950px;
+  fill: white;
+}
+
+.guide_two {
+  width: 200px;
+  position: absolute;
+  top: 45px;
+  left: 1020px;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.case {
+  position: absolute;
+  width: 250px;
+  height: 0px;
+  top: 120px;
+  left: 180px;
+  color: white;
+  font-size: 25px;
+}
+
+.case_one {
+  position: absolute;
+  top: 135px;
+  left: 400px;
+  fill: rgb(255, 255, 255);
+}
+
+.case_two {
+  position: absolute;
+  top: 147px;
+  left: 480px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.farther {
+  position: absolute;
+  top: 135px;
+  left: 950px;
+  fill: rgb(69, 126, 231);
+}
+
+.farther_one {
+  position: absolute;
+  top: 145px;
+  left: 1030px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.beyond {
+  position: absolute;
+  top: 135px;
+  left: 1180px;
+}
+
+.beyond_one {
+  position: absolute;
+  top: 145px;
+  left: 1260px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.outside {
+  position: absolute;
+  top: 240px;
+  left: 950px;
+}
+
+.outside_one {
+  position: absolute;
+  top: 250px;
+  left: 1030px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.outside_two {
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  fill: white;
+}
+
+.outside_tu_two {
+  position: absolute;
+  top: 260px;
+  left: 480px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.outside_free {
+  position: absolute;
+  top: 240px;
+  left: 1180px;
+  fill: rgb(10, 9, 9);
+}
+
+.outside_to_free {
+  position: absolute;
+  top: 250px;
+  left: 1255px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.outside_vor {
+  position: absolute;
+  top: 245px;
+  left: 650px;
+  fill: rgb(240, 235, 241);
+}
+
+.outside_to_vor {
+  position: absolute;
+  top: 260px;
+  left: 720px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+
+/*koniec-footer*/
