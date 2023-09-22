@@ -10,6 +10,10 @@ body{
     footer{
     overflow-x: hidden;
     }
+
+    main{
+      margin-left: 50px;
+    }
     
     ul {
     padding-left: 0;
@@ -181,7 +185,7 @@ body{
     .strip{
     color: rgb(7, 70, 122);
     width:600px;
-    height: 2px;
+    height: 3px;
     margin-left: 0px;
     margin-bottom: 50px;
     }
@@ -191,7 +195,7 @@ body{
     top: 145px;
     left: 25px;
     background-color: rgb(7, 70, 122);
-    width:2px;
+    width: 3px;
     height: 100px;
     margin-bottom: 50px;
     }
@@ -500,9 +504,9 @@ body{
       @media screen and (min-width: 200px) and (max-width: 400px) {
 
         body {
-          width: 399px;
+          width: 390px;
           height: auto;
-          margin-left: 2px;
+          margin-left: -2px;
         }
       
       
@@ -525,7 +529,7 @@ body{
         .logo_one {
           width: 90px;
           height: 90px;
-          margin-left: 0px;
+          margin-left: 10px;
           margin-top: 15px;
         }
       
@@ -536,11 +540,16 @@ body{
           background-color: white;
           margin-bottom: 10px;
         }
+
+        .about,.career,.price,.bell{
+          margin-left: 2px;
+          margin-right: 2px;
+        }
       
         .big {
           position: relative;
           text-align: center;
-          font-size: 21px;
+          font-size: 19px;
           font-family: 'inherit';
           font-weight: bold;
           color: rgb(7, 70, 122);
@@ -548,7 +557,7 @@ body{
           font-weight: bold;
           text-decoration: none;
           top: 10px;
-          left: 4%;
+          left: 5%;
         }
       
         .line {
@@ -673,7 +682,7 @@ body{
 .strip_one{
   width: 170px;
   height: 2px;
-  top: 505px;
+  top: 580px;
 }
 
 .aesily{
@@ -784,7 +793,7 @@ body{
 
   .info {
     position: relative;
-    left: 1%;
+    left: 2%;
     width: 380px;
     height: 650px;
     background-color: rgb(17, 63, 90);
@@ -794,7 +803,7 @@ body{
   .big_foot {
     padding-left: 18px;
     padding-top: 15px;
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'Playfair Display', serif;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -825,7 +834,7 @@ body{
   .case_two {
     left: 20px;
     top: 190px;
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .farther {
@@ -902,7 +911,8 @@ body{
         body {
           width: 590px;
           height: auto;
-          margin-left: 1px;
+          margin-left: -5px;
+          margin-right: 20px;
         }
         header,
         main,
@@ -921,7 +931,7 @@ body{
         .logo_one {
           width: 120px;
           height: 120px;
-          margin-left: 0px;
+          margin-left: 10px;
           margin-top: 5px;
         }
       
@@ -936,7 +946,7 @@ body{
         .big {
           position: relative;
           text-align: center;
-          font-size: 21px;
+          font-size: 23px;
           font-family: 'inherit';
           font-weight: bold;
           color: rgb(7, 70, 122);
@@ -944,7 +954,7 @@ body{
           font-weight: bold;
           text-decoration: none;
           top: 9px;
-          left: 5%;
+          left: 1%;
         }
   
         .big_one{
@@ -1063,6 +1073,10 @@ body{
         }
   
   
+        .about,.career,.price,.bell{
+          margin-left: 7px;
+          margin-top: 40px;
+        }
 /*koniec-header*/
 
 
@@ -1070,41 +1084,41 @@ body{
 
 
 .easy{
-  font-size: 30px;
-  margin-left: 15px;
-  margin-right: 25px;
+  font-size: 35px;
+  margin-left: 10px;
+  margin-right: 60px;
 }
 
 
 
 .strip_one{
-  width: 170px;
+  width: 180px;
   height: 2px;
-  top: 505px;
+  top: 615px;
 }
 
 .aesily{
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 15px;
-  margin-right: 30px;
+  margin-right: 60px;
 }
 
 .simply{
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 15px;
-  margin-right: 30px;
+  margin-right: 60px;
 }
 
 .readli{
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 15px;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 .mild_one{
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 15px;
-  margin-right: 35px;
+  margin-right: 60px;
   }
   
   /*koniec-latwosc-wspolpracy*/
@@ -1114,25 +1128,24 @@ body{
   width: 150px;
 }
 
-.mild_one{
+
+
+.mild_two{
+  font-size: 20px; 
+  margin-left: 15px;
   margin-right: 60px;
 }
 
-.mild_two{
-  font-size: 18px; 
-  margin-left: 15px;
-  margin-right: 40px;
-}
-
 .share{
-  font-size: 30px;
+  font-size: 35px;
   margin-left: 15px;
+  margin-right: 60px;
 }
 
 .share_one{
-  font-size: 18px; 
+  font-size: 20px; 
   margin-left: 15px;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 /*konies-szlokinie*/
@@ -1140,32 +1153,33 @@ body{
 /*RBH*/
 
 .whole{
-  font-size: 30px;
+  font-size: 35px;
   margin-left: 10px;
   }
 
 
   .whole_one{
-    font-size: 28px;
+    font-size: 30px;
     margin-left: 10px;
-    margin-right: 50px;
+    margin-right: 60px;
   }
 
 .whole_two{
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 15px;
-  margin-right: 27px;
+  margin-right: 60px;
 }
  /*koniec-RBH*/
 /*rekrytacja*/
 .half{
-  font-size: 30px;
+  font-size: 35px;
   margin-left: 15px;
   margin-right: 35px;
 }
 
 .half_one{
   margin-left: 15px;
+  font-size: 30px;
 }
 
 
@@ -1178,7 +1192,7 @@ body{
    .colophon,.name_me,.business,.business_tel{
   font-size: 28px;
   margin-left: 15px;
-  margin-right: 35px;
+  margin-right: 60px;
 }
 
 
@@ -1197,7 +1211,7 @@ body{
         .info {
           position: relative;
           top: 0px;
-          left: 3%;
+          left: 1%;
           width: 550px;
           height: 650px;
           background-color: rgb(17, 63, 90);
@@ -1337,18 +1351,21 @@ body{
     height: 190px;
   }
 
-  .big_on{
-    font-size: 1055px;
+  .big{
+    font-size: 75px;
   }
 
-
+.about,.career,.price,.bell{
+  margin-left: -50px;
+  margin-right: 30px;
+}
   .fifth_part{
-    font-size: 26px;
+    font-size: 27px;
     margin-left: 210px;
   }
 
   .line{
- width: 775px;
+ width: 800px;
  margin-left: 20px;
   }
 /*koniec-header*/
@@ -1356,18 +1373,21 @@ body{
 /*latwosc-wspolpracy*/
 
 .easy{
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 50px;
+  margin-right: 40px;
 }
 
 
 .strip{
-  margin-bottom: -40px;
+  margin-bottom: -100px;
 }
 
 .aesily{
   margin-left: 50px;
   margin-right: 80px;
+  font-size: 23px;
+  margin-top: 100px;
 }
 
 .strip_two{
@@ -1377,6 +1397,7 @@ body{
 .simply,.readli,.mild_one,.mild_two,.share,.share_one,.whole,.whole_one,.whole_two,.half,.half_one{
   margin-left: 50px;
   margin-right: 80px;
+  font-size: 23px;
 }
 
 /*koniec-latwosc-wspolpracy*/
@@ -1394,7 +1415,32 @@ body{
   margin-right: 80px;
   font-size: 30px;
 }
+.share{
+  font-size: 35px;
+}
+.share_one{
+  font-size: 23px;
+  margin-right: 60px;
+}
 /*koniec-scegoly*/
+
+/*RBH*/
+.whole{
+  font-size: 35px;
+  margin-right: 60px;
+}
+
+.whole_one{
+  font-size: 30px;
+}
+
+/*rekrytacja*/
+.half,.half_one{
+  font-size: 30px;
+}
+
+
+
 /*footer*/
 
 .info {
@@ -1455,7 +1501,7 @@ body{
   position: absolute;
   top: 100px;
   left: 280px;
-  font-size: 28px;
+  font-size: 25px;
   color: white;
   text-decoration: none;
 }
