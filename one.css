@@ -53,6 +53,7 @@ li {
 
 .about,
 .career,
+
 .price,
 .bell {
   float: left;
@@ -444,7 +445,8 @@ li {
   body {
     width: 399px;
     height: auto;
-    margin-left: 2px;
+    margin-left: auto;
+  margin-right: auto;
   }
 
 
@@ -490,7 +492,7 @@ li {
     font-weight: bold;
     text-decoration: none;
     top: 10px;
-    left: 4%;
+    left: 3%;
   }
 
   .line {
@@ -646,7 +648,7 @@ li {
 
   .opis_two {
     position: relative;
-    top: -350px;
+    top: -330px;
     left: 215px;
   }
 
@@ -673,15 +675,18 @@ li {
     font-size: 16px;
     top: -210px;
     left: 15px;
+
   }
 
   .appellation_one {
     font-size: 16px;
     position: relative;
-    top: -0px;
+    top: -50px;
     left: 15px;
   }
-
+main{
+  margin-right: 20px;
+}
   .way {
     margin-top: 20px;
   }
@@ -703,7 +708,7 @@ li {
   .info {
     position: relative;
     top: -250px;
-    left: 1%;
+    left: 0%;
     width: 380px;
     height: 650px;
     background-color: rgb(17, 63, 90);
@@ -825,7 +830,8 @@ li {
   body {
     width: 570px;
     height: auto;
-    margin-left: 2px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   header,
@@ -843,10 +849,10 @@ li {
   }
 
   .logo_one {
-    width: 115px;
-    height: 115px;
-    margin-left: 10px;
-    margin-top: 5px;
+    width: 95px;
+    height: 95px;
+    margin-left: -10px;
+    margin-top: 7px;
   }
 
   .mn {
@@ -860,7 +866,7 @@ li {
   .big {
     position: relative;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'inherit';
     font-weight: bold;
     color: rgb(7, 70, 122);
@@ -868,7 +874,7 @@ li {
     font-weight: bold;
     text-decoration: none;
     top: 2px;
-    left: 4%; ;
+    left:-3px ;
   }
 
   .line {
@@ -880,8 +886,9 @@ li {
   .third_part,
   .fifth_part,
   .thirdes_part {
-    margin-left: 45px;
-    font-size: 23px;
+    margin-left: 55px;
+    font-size: 18px;
+    color: rgb(7, 70, 122);
   }
 
   .first_part::after {
@@ -969,18 +976,20 @@ li {
     width: 95px;
   }
 
+
+
 /*koniec-header*/
   /*opis-elektryk*/
   .opis {
-    font-size: 28px;
-    margin-left: -30px;
+  font-size: 25px;
+margin-left: -55px;
   }
 
   .opis_photo {
     margin-top: 70px;
     margin-left: 30px;
-    width: 190px;
-    height: 133px;
+    width: 170px;
+    height: 120px;
     border-radius: 4%;
     background-color: rgba(7, 70, 122, 0.219);
   }
@@ -989,7 +998,7 @@ li {
     border-radius: 4%;
     margin-top: -25px;
     margin-left: -5px;
-    width: 190px;
+    width: 168px;
   }
 
 
@@ -1003,7 +1012,7 @@ li {
     position: relative;
     font-size: 18px;
     top: -320px;
-    left: 310px;
+    left: 320px;
   }
 
 
@@ -1011,7 +1020,7 @@ li {
     position: relative;
     font-size: 19px;
     top: -330px;
-    left: 310px;
+    left: 320px;
   }
 
 
@@ -1025,14 +1034,14 @@ li {
     position: relative;
     font-size: 19px;
     top: -490px;
-    left: 310px;
+    left: 320px;
   }
 
   .opis_sity_twoi {
     position: relative;
     font-size: 19px;
     top: -500px;
-    left: 310px;
+    left: 320px;
   }
 
   /*koniec-opis-elektryka*/
@@ -1043,14 +1052,16 @@ li {
     position: relative;
     font-size: 18px;
     top: -210px;
-    left: 20px;
+    left: 30px;
+    margin-right: 30px;
   }
 
   .appellation_one {
     font-size: 18px;
     position: relative;
     top: -0px;
-    left: 20px;
+    left: 30px;
+    margin-right: 20px;
   }
 
   .way {
@@ -1060,9 +1071,10 @@ li {
 
   .way_one {
     text-align: center;
-    font-size: 25px;
-    margin-left: 2px;
-    margin-right: 25px;
+    font-size: 20px;
+    margin-left: 5%;
+  width: 500px;
+
   }
 
   /*koniec-opisc-vacata*/
