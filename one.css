@@ -914,7 +914,7 @@ main{
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 68%;
@@ -935,7 +935,7 @@ main{
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 63%;
@@ -956,7 +956,7 @@ main{
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 65%;
@@ -974,11 +974,11 @@ main{
   }
 
 
-  .fifth_part::after {
+  .fifth_part_one::after {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 63%;
@@ -986,13 +986,11 @@ main{
     transform: translateX(-50%);
     transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
   }
-
-  .fifth_part:hover {
+  .fifth_part_one:hover {
     color: rgb(0, 132, 255);
   }
-
-  .fifth_part:hover::after {
-    width: 95px;
+  .fifth_part_one:hover::after {
+    width: 85px;
   }
 
 
@@ -1000,8 +998,8 @@ main{
 /*koniec-header*/
   /*opis-elektryk*/
   .opis {
-  font-size: 25px;
-margin-left: -55px;
+  font-size: 23px;
+  margin-left: -150px;
   }
 
   .opis_photo {
@@ -1024,14 +1022,14 @@ margin-left: -55px;
   .opis_one {
     position: relative;
     top: -150px;
-    left: 240px;
+    left: 210px;
   }
 
   .opis_sity {
     position: relative;
     font-size: 18px;
     top: -320px;
-    left: 320px;
+    left: 275px;
   }
 
 
@@ -1039,28 +1037,28 @@ margin-left: -55px;
     position: relative;
     font-size: 19px;
     top: -330px;
-    left: 320px;
+    left: 275px;
   }
 
 
   .opis_two {
     position: relative;
     top: -330px;
-    left: 240px;
+    left: 210px;
   }
 
   .opis_sity_two {
     position: relative;
     font-size: 19px;
     top: -490px;
-    left: 320px;
+    left: 275px;
   }
 
   .opis_sity_twoi {
     position: relative;
     font-size: 19px;
     top: -500px;
-    left: 320px;
+    left: 275px;
   }
 
   /*koniec-opis-elektryka*/
@@ -1091,8 +1089,8 @@ margin-left: -55px;
   .way_one {
     text-align: center;
     font-size: 20px;
-    margin-left: 5%;
-  width: 500px;
+    margin-right: 200px;
+margin-left: 50px;
 
   }
 
@@ -1105,7 +1103,7 @@ margin-left: -55px;
 
   .info {
     position: relative;
-    top: -240px;
+    top: -50px;
     left: 0%;
     width: 570px;
     height: 650px;
@@ -1147,7 +1145,7 @@ margin-left: -55px;
   .case_two {
     left: 20px;
     top: 190px;
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .farther {

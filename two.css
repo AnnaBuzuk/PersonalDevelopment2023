@@ -39,7 +39,7 @@ body {
   }
   
   
-  .big {
+  .BIG {
     position: relative;
     text-align: center;
     font-size: 75px;
@@ -488,7 +488,7 @@ body {
     margin-bottom: 10px;
   }
 
-   .big {
+   .BIG {
     position: relative;
     text-align: center;
     font-size: 21px;
@@ -878,7 +878,8 @@ body {
     background-color: white;
     margin-bottom: 10px;
   }
-  .big {
+  
+  .BIG{
     position: relative;
     text-align: center;
     font-size: 23px;
@@ -889,7 +890,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     top: 10px;
-    left:-25px ;
+    left:-25px;
   }
 
 
@@ -1242,7 +1243,8 @@ body {
     margin-bottom: 10px;
   }
 
-  .big {
+  .BIG
+   {
     position: relative;
     text-align: center;
     font-size: 45px;
@@ -1674,10 +1676,10 @@ body {
     }
   
     .logo_one {
-      width: 115px;
-      height: 115px;
-      margin-left: -600px;
-      margin-top: 5px;
+      width: 95px;
+      height: 95px;
+      margin-left: -35px;
+      margin-top: 0px;
     }
   
     .mn {
@@ -1688,18 +1690,18 @@ body {
       margin-bottom: 10px;
     }
   
-    .big {
-      position: relative;
-      text-align: center;
-      font-size: 30px;
-      font-family: 'inherit';
-      font-weight: bold;
-      color: rgb(7, 70, 122);
-      transition: all 1s;
-      font-weight: bold;
-      text-decoration: none;
-      top: 2px;
-      left: 4%; ;
+    .BIG {
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'inherit';
+    font-weight: bold;
+    color: rgb(7, 70, 122);
+    transition: all 1s;
+    font-weight: bold;
+    text-decoration: none;
+    top: 10px;
+    left:-25px;
     }
   
     .line {
@@ -1709,17 +1711,18 @@ body {
     .first_part,
     .second_part,
     .third_part,
-    .fifth_part,
+    .fifth_part_one,
     .thirdes_part {
-      margin-left: 45px;
-      font-size: 23px;
+      margin-left: 28px;
+      font-size: 18px;
+      color: rgb(7, 70, 122);
     }
   
     .first_part::after {
       content: '';
       position: absolute;
       margin-bottom: -10px;
-      height: 3px;
+      height: 2px;
       background-color: rgb(36, 119, 167);
       width: 0;
       left: 68%;
@@ -1740,7 +1743,7 @@ body {
       content: '';
       position: absolute;
       margin-bottom: -10px;
-      height: 3px;
+      height: 2px;
       background-color: rgb(36, 119, 167);
       width: 0;
       left: 63%;
@@ -1761,7 +1764,7 @@ body {
       content: '';
       position: absolute;
       margin-bottom: -10px;
-      height: 3px;
+      height: 2px;
       background-color: rgb(36, 119, 167);
       width: 0;
       left: 65%;
@@ -1779,11 +1782,11 @@ body {
     }
   
   
-    .fifth_part::after {
+    .fifth_part_one::after {
       content: '';
       position: absolute;
       margin-bottom: -10px;
-      height: 3px;
+      height: 2px;
       background-color: rgb(36, 119, 167);
       width: 0;
       left: 63%;
@@ -1791,51 +1794,49 @@ body {
       transform: translateX(-50%);
       transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
     }
-  
-    .fifth_part:hover {
+    .fifth_part_one:hover {
       color: rgb(0, 132, 255);
     }
-  
-    .fifth_part:hover::after {
-      width: 95px;
+    .fifth_part_one:hover::after {
+      width: 85px;
     }
   
   /*koniec-header*/
     /*opis-elektryk*/
-    .opis {
-      font-size: 28px;
-      margin-left: -30px;
-    }
+     .opis {
+      font-size: 23px;
+      margin-left: -180px;
+      }
   
-    .opis_photo {
-      margin-top: 90px;
-      margin-left: 20px;
-      width:195px;
-      height: 140px;
-      border-radius: 4%;
-      background-color: rgba(7, 70, 122, 0.219);
-    }
+      .opis_photo {
+        margin-top: 70px;
+        margin-left: 30px;
+        width: 170px;
+        height: 120px;
+        border-radius: 4%;
+        background-color: rgba(7, 70, 122, 0.219);
+      }
+    
+      .opis_photo_one {
+        border-radius: 4%;
+        margin-top: -25px;
+        margin-left: -5px;
+        width: 168px;
+        height: 130px;
+      }
   
-    .opis_photo_one {
-      border-radius: 4%;
-      margin-top: -15px;
-      margin-left: -0px;
-      width: 190px;
-      height: 150px;
-    }
   
-  
-    .opis_one {
-      position: relative;
-      top: -150px;
-      left: 240px;
-    }
-  
+      .opis_one {
+        position: relative;
+        top: -150px;
+        left: 210px;
+      }
+    
     .opis_sity {
       position: relative;
       font-size: 18px;
       top: -320px;
-      left: 310px;
+      left: 275px;
     }
   
   
@@ -1843,30 +1844,28 @@ body {
       position: relative;
       font-size: 19px;
       top: -330px;
-      left: 310px;
+      left: 275px;
     }
-  
   
     .opis_two {
       position: relative;
       top: -330px;
-      left: 240px;
+      left: 210px;
     }
   
     .opis_sity_two {
       position: relative;
       font-size: 19px;
       top: -490px;
-      left: 310px;
+      left: 275px;
     }
   
     .opis_sity_twoi {
       position: relative;
       font-size: 19px;
       top: -500px;
-      left: 310px;
+      left: 275px;
     }
-  
     /*koniec-opis-elektryka*/
     /*opis-vakata*/
   
@@ -1885,16 +1884,17 @@ body {
       left: 20px;
     }
   
-    .way {
+     .way {
       margin-top: 20px;
     }
   
   
     .way_one {
       text-align: center;
-      font-size: 25px;
-      margin-left: 2px;
-      margin-right: 25px;
+      font-size: 20px;
+      margin-right: 200px;
+  margin-left: 50px;
+  
     }
   
     /*koniec-opisc-vacata*/
@@ -1906,7 +1906,7 @@ body {
   
     .info {
       position: relative;
-      top: -240px;
+      top: -50px;
       left: 0%;
       width: 570px;
       height: 650px;
@@ -1948,7 +1948,7 @@ body {
     .case_two {
       left: 20px;
       top: 190px;
-      font-size: 23px;
+      font-size: 22px;
     }
   
     .farther {

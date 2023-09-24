@@ -31,7 +31,7 @@ li {
 }
 
 
-.logo_one{
+.logoone{
     position: relative;
     top: 0px;
     left: 30px;
@@ -44,9 +44,11 @@ li {
   border-bottom: 2px solid;
   color: rgb(0, 0, 0);
 }
+.big{
+  text-decoration: none;
+}
 
-
-.big {
+.BIG{
   position: relative;
   text-align: center;
   font-size: 75px;
@@ -476,11 +478,11 @@ li {
 
 
   /*header*/
-  .logo_one {
+  .logoone {
     width: 80px;
     height: 80px;
     margin-left: -37px;
-    margin-top: 4px;
+    margin-top: 0px;
   }
 
   .mn {
@@ -491,7 +493,7 @@ li {
     margin-bottom: 10px;
   }
 
-  .big {
+  .BIG {
     position: relative;
     text-align: center;
     font-size: 21px;
@@ -864,11 +866,11 @@ li {
     list-style-type: none;
   }
 
-  .logo_one {
+  .logoone{
     width: 95px;
-    height: 95px;
-    margin-left: -35px;
-    margin-top: 0px;
+      height: 95px;
+      margin-left: -35px;
+      margin-top: 0px;
   }
 
 
@@ -880,18 +882,18 @@ li {
     margin-bottom: 10px;
   }
 
-  .big {
+  .BIG{
     position: relative;
     text-align: center;
-    font-size: 27px;
+    font-size: 23px;
     font-family: 'inherit';
     font-weight: bold;
     color: rgb(7, 70, 122);
     transition: all 1s;
     font-weight: bold;
     text-decoration: none;
-    top: 10px;
-    left:-25px ;
+    top: 19px;
+    left:-45px;
   }
 
   .line {
@@ -901,17 +903,23 @@ li {
   .first_part,
   .second_part,
   .third_part,
-  .fifth_part,
   .thirdes_part {
-    margin-left: 45px;
-    font-size: 23px;
+    margin-left: 27px;
+    font-size: 18px;
+    color: rgb(7, 70, 122);
+  }
+
+ .fifth_part_one{
+  margin-left: 27px;
+  font-size: 18px;
+  color: rgb(7, 70, 122);
   }
 
   .first_part::after {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 68%;
@@ -932,10 +940,10 @@ li {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
-    left: 63%;
+    left: 65%;
     bottom: 0;
     transform: translateX(-50%);
     transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -946,14 +954,14 @@ li {
   }
 
   .second_part:hover::after {
-    width: 83px;
+    width: 73px;
   }
 
   .thirdes_part::after {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 65%;
@@ -971,11 +979,11 @@ li {
   }
 
 
-  .fifth_part::after {
+  .fifth_part_one::after {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 63%;
@@ -984,26 +992,26 @@ li {
     transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
   }
 
-  .fifth_part:hover {
+  .fifth_part_one:hover {
     color: rgb(0, 132, 255);
   }
 
-  .fifth_part:hover::after {
+  .fifth_part_one:hover::after {
     width: 95px;
   }
 
 /*koniec-header*/
   /*opis-elektryk*/
   .opis {
-    font-size: 28px;
-    margin-left: -30px;
-  }
+    font-size: 23px;
+    margin-left: -180px;
+    }
 
   .opis_photo {
     margin-top: 70px;
     margin-left: 30px;
-    width: 190px;
-    height: 133px;
+    width: 170px;
+    height: 120px;
     border-radius: 4%;
     background-color: rgba(7, 70, 122, 0.219);
   }
@@ -1012,51 +1020,51 @@ li {
     border-radius: 4%;
     margin-top: -25px;
     margin-left: -5px;
-    width: 190px;
+    width: 168px;
+    height: 130px;
   }
-
 
   .opis_one {
     position: relative;
     top: -150px;
-    left: 240px;
+    left: 210px;
   }
 
-  .opis_sity {
-    position: relative;
-    font-size: 18px;
-    top: -320px;
-    left: 310px;
-  }
+.opis_sity {
+  position: relative;
+  font-size: 18px;
+  top: -320px;
+  left: 275px;
+}
 
 
-  .opis_sity_one {
-    position: relative;
-    font-size: 19px;
-    top: -330px;
-    left: 310px;
-  }
+.opis_sity_one {
+  position: relative;
+  font-size: 19px;
+  top: -330px;
+  left: 275px;
+}
 
 
-  .opis_two {
-    position: relative;
-    top: -330px;
-    left: 240px;
-  }
+.opis_two {
+  position: relative;
+  top: -330px;
+  left: 210px;
+}
 
-  .opis_sity_two {
-    position: relative;
-    font-size: 19px;
-    top: -490px;
-    left: 310px;
-  }
+.opis_sity_two {
+  position: relative;
+  font-size: 19px;
+  top: -490px;
+  left: 275px;
+}
 
-  .opis_sity_twoi {
-    position: relative;
-    font-size: 19px;
-    top: -500px;
-    left: 310px;
-  }
+.opis_sity_twoi {
+  position: relative;
+  font-size: 19px;
+  top: -500px;
+  left: 275px;
+}
 
   /*koniec-opis-elektryka*/
   /*opis-vakata*/
@@ -1075,7 +1083,6 @@ li {
     top: -0px;
     left: 20px;
   }
-
   .way {
     margin-top: 20px;
   }
@@ -1083,9 +1090,10 @@ li {
 
   .way_one {
     text-align: center;
-    font-size: 25px;
-    margin-left: 2px;
-    margin-right: 25px;
+    font-size: 20px;
+    margin-right: 220px;
+margin-left: 30px;
+
   }
 
   /*koniec-opisc-vacata*/
@@ -1097,7 +1105,7 @@ li {
 
   .info {
     position: relative;
-    top: -240px;
+    top: -50px;
     left: 0%;
     width: 570px;
     height: 650px;
@@ -1137,9 +1145,9 @@ li {
   }
 
   .case_two {
-    left: 20px;
+    left:15px;
     top: 190px;
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .farther {
@@ -1228,7 +1236,7 @@ li {
     list-style-type: none;
   }
 /*header*/
-  .logo_one {
+  .logoone {
     width: 150px;
     height: 150px;
     margin-left: 10px;
@@ -1648,7 +1656,7 @@ li {
 
 
 
-@media screen and (min-width: 400px) and (max-width: 600px) {
+@meda screen and (min-width: 400px) and (max-width: 600px) {
 
 
   /*header*/
@@ -1674,12 +1682,7 @@ li {
       list-style-type: none;
     }
   
-    .logo_one {
-      width: 115px;
-      height: 115px;
-      margin-left: 0px;
-      margin-top: 5px;
-    }
+   
   
     .mn {
       position: sticky;
@@ -2038,7 +2041,7 @@ li {
       list-style-type: none;
     }
   /*header*/
-    .logo_one {
+    .logoone {
       width: 150px;
       height: 150px;
       margin-left: 20px;
