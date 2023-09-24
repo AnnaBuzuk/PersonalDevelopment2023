@@ -837,817 +837,6 @@ body {
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 600px) {
-
-
-/*header*/
-
-
-  body {
-    width: 570px;
-    height: auto;
-    margin-left: 2px;
-  }
-
-  header,
-  main,
-  footer {
-    overflow-x: hidden;
-  }
-
-  ul {
-    padding-left: 0;
-  }
-
-  li {
-    list-style-type: none;
-  }
-
-  .logo_one {
-    width: 95px;
-    height: 95px;
-    margin-left: -10px;
-    margin-top: 7px;
-  }
-
-
-  .mn {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    background-color: white;
-    margin-bottom: 10px;
-  }
-  
-  .BIG{
-    position: relative;
-    text-align: center;
-    font-size: 23px;
-    font-family: 'inherit';
-    font-weight: bold;
-    color: rgb(110, 122, 7);
-    transition: all 1s;
-    font-weight: bold;
-    text-decoration: none;
-    top: 10px;
-    left:-25px;
-  }
-
-
-  .line {
-    display: none;
-  }
-
-  .first_part,
-  .second_part,
-  .third_part,
-  .fifth_part,
-  .thirdes_part {
-    margin-left: 25px;
-    font-size: 23px;
-  }
-
-  .first_part::after {
-    content: '';
-    position: absolute;
-    margin-bottom: -10px;
-    height: 3px;
-    background-color: rgb(36, 119, 167);
-    width: 0;
-    left: 68%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-  }
-
-  .first_part:hover {
-    color: rgb(0, 132, 255);
-  }
-
-  .first_part:hover::after {
-    width: 60px;
-  }
-
-  .second_part::after {
-    content: '';
-    position: absolute;
-    margin-bottom: -10px;
-    height: 3px;
-    background-color: rgb(36, 119, 167);
-    width: 0;
-    left: 63%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-  }
-
-  .second_part:hover {
-    color: rgb(0, 132, 255);
-  }
-
-  .second_part:hover::after {
-    width: 83px;
-  }
-
-  .thirdes_part::after {
-    content: '';
-    position: absolute;
-    margin-bottom: -10px;
-    height: 3px;
-    background-color: rgb(36, 119, 167);
-    width: 0;
-    left: 65%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-  }
-
-  .thirdes_part:hover {
-    color: rgb(0, 132, 255);
-  }
-
-  .thirdes_part:hover::after {
-    width: 75px;
-  }
-
-
-  .fifth_part::after {
-    content: '';
-    position: absolute;
-    margin-bottom: -10px;
-    height: 3px;
-    background-color: rgb(36, 119, 167);
-    width: 0;
-    left: 63%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-  }
-
-  .fifth_part:hover {
-    color: rgb(0, 132, 255);
-  }
-
-  .fifth_part:hover::after {
-    width: 95px;
-  }
-
-/*koniec-header*/
-  /*opis-elektryk*/
-  .opis {
-    font-size: 28px;
-    margin-left: -30px;
-  }
-
-  .opis_photo {
-    margin-top: 70px;
-    margin-left: 30px;
-    width: 190px;
-    height: 133px;
-    border-radius: 4%;
-    background-color: rgba(7, 70, 122, 0.219);
-  }
-
-  .opis_photo_one {
-    border-radius: 4%;
-    margin-top: -25px;
-    margin-left: -5px;
-    width: 190px;
-  }
-
-
-  .opis_one {
-    position: relative;
-    top: -150px;
-    left: 240px;
-  }
-
-  .opis_sity {
-    position: relative;
-    font-size: 18px;
-    top: -320px;
-    left: 310px;
-  }
-
-
-  .opis_sity_one {
-    position: relative;
-    font-size: 19px;
-    top: -330px;
-    left: 310px;
-  }
-
-
-  .opis_two {
-    position: relative;
-    top: -330px;
-    left: 240px;
-  }
-
-  .opis_sity_two {
-    position: relative;
-    font-size: 19px;
-    top: -490px;
-    left: 310px;
-  }
-
-  .opis_sity_twoi {
-    position: relative;
-    font-size: 19px;
-    top: -500px;
-    left: 310px;
-  }
-
-  /*koniec-opis-elektryka*/
-  /*opis-vakata*/
-
-
-  .appellation_one_ap {
-    position: relative;
-    font-size: 18px;
-    top: -210px;
-    left: 20px;
-  }
-
-  .appellation_one {
-    font-size: 18px;
-    position: relative;
-    top: -0px;
-    left: 20px;
-  }
-
-  .way {
-    margin-top: 20px;
-  }
-
-
-  .way_one {
-    text-align: center;
-    font-size: 25px;
-    margin-left: 2px;
-    margin-right: 25px;
-  }
-
-  /*koniec-opisc-vacata*/
-  /*footer*/
-
-  .info_mob {
-    position: absolute;
-  }
-
-  .info {
-    position: relative;
-    top: -240px;
-    left: 0%;
-    width: 570px;
-    height: 650px;
-    background-color: rgb(17, 63, 90);
-    overflow: hidden;
-  }
-
-  .big_foot {
-    padding-left: 30px;
-    padding-top: 15px;
-    font-size: 25px;
-    font-family: 'Playfair Display', serif;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-
-  .guide_one {
-    position: absolute;
-    top: 80px;
-    left: 40px;
-    fill: white;
-  }
-
-  .guide_two {
-    left: 115px;
-    top: 90px;
-  }
-
-  .case {
-    left: 115px;
-    top: 120px;
-  }
-
-  .case_one {
-    left: 43px;
-    top: 130px;
-  }
-
-  .case_two {
-    left: 20px;
-    top: 190px;
-    font-size: 23px;
-  }
-
-  .farther {
-    left: 40px;
-    top: 230px;
-  }
-
-  .farther_one {
-    left: 115px;
-    top: 240px;
-  }
-
-  .beyond {
-    left: 40px;
-    top: 295px;
-  }
-
-  .beyond_one {
-    left: 110px;
-    top: 300px;
-  }
-
-  .outside {
-    left: 39px;
-    top: 360px;
-  }
-
-  .outside_one {
-    left: 112px;
-    top: 370px;
-  }
-
-  .outside_two {
-    left: 41px;
-    top: 430px;
-  }
-
-  .outside_tu_two {
-    left: 115px;
-    top: 435px;
-  }
-
-  .outside_vor {
-    left: 37px;
-    top: 485px;
-  }
-
-  .outside_to_vor {
-    left: 113px;
-    top: 495px;
-  }
-
-  .outside_free {
-    left: 40px;
-    top: 550px;
-    fill: white;
-  }
-
-  .outside_to_free {
-    left: 113px;
-    top: 560px;
-  }
-}
-
-
-
-@media screen and (min-width: 600px) and (max-width: 900px) {
-
-  body {
-    width: 890px;
-    height: auto;
-    margin-left: 5px;
-  }
-
-  header,
-  main,
-  footer {
-    overflow-x: hidden;
-  }
-
-  ul {
-    padding-left: 0;
-  }
-
-  li {
-    list-style-type: none;
-  }
-/*header*/
-  .logo_one {
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-top: 5px;
-  }
-
-  .mn {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    background-color: white;
-    margin-bottom: 10px;
-  }
-
-  .BIG
-   {
-    position: relative;
-    text-align: center;
-    font-size: 45px;
-    font-family: 'inherit';
-    font-weight: bold;
-    color: rgb(7, 70, 122);
-    transition: all 1s;
-    font-weight: bold;
-    text-decoration: none;
-    top: 2px;
-    left: 3%;
-  }
-
-  .line {
-    border-bottom: 1px solid;
-    color: rgb(0, 0, 0);
-    width: 830px;
-    margin-top: 75px;
-    margin-left: 30px;
-
-  }
-
-
-  .about,
-  .career,
-  .price,
-  .bell {
-    float: left;
-    margin-top: 80px;
-    margin-bottom: 50px;
-    position: relative;
-  }
-
-
-
-  .photo {
-    margin-top: 550px;
-    margin-left: 30px;
-    height: 400px;
-    width: 700px;
-  }
-
-
-  .job {
-    left: 2%;
-    width: 250px;
-    height: 250px;
-    margin-top: 70px;
-  }
-
-  .job_but {
-
-    padding: 20px 30px;
-    margin: 40px 50px;
-
-  }
-
-  .bos_but {
-    padding: 20px 30px;
-    margin: 3% 60px;
-  }
-
-  .PD_one {
-    font-size: 27px;
-  }
-
-  .PD_but {
-
-    padding: 10px 20px;
-    margin: 35px 10px 0px 15px;
-  }
-
-
-
-  .informacja_PD {
-    left: 20%;
-    top: -1250px;
-    width: 250px;
-    height: 250px;
-  }
-
-  .employee {
-    left: 180px;
-    width: 250px;
-    height: 250px;
-    top: -1210px;
-  }
-
-  .description {
-    display: none;
-  }
-
-  .first_part,
-  .second_part,
-  .third_part,
-  .fifth_part,
-  .thirdes_part {
-    margin-left: 100px;
-    font-size: 26px;
-  }
-
-  .first_part::after {
-    content: '';
-    position: absolute;
-    margin-bottom: -10px;
-    height: 3px;
-    background-color: rgb(36, 119, 167);
-    width: 0;
-    left: 79%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-  }
-
-  .first_part:hover {
-    color: rgb(0, 132, 255);
-  }
-
-  .first_part:hover::after {
-    width: 60px;
-  }
-
-
-  .second_part::after {
-    content: '';
-    position: absolute;
-    margin-bottom: -10px;
-    height: 3px;
-    background-color: rgb(36, 119, 167);
-    width: 0;
-    left: 75%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-  }
-
-  .second_part:hover {
-    color: rgb(0, 132, 255);
-  }
-
-  .second_part:hover::after {
-    width: 78px;
-  }
-
-  .thirdes_part::after {
-    content: '';
-    position: absolute;
-    margin-bottom: -10px;
-    height: 3px;
-    background-color: rgb(36, 119, 167);
-    width: 0;
-    left: 77%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-  }
-
-  .thirdes_part:hover {
-    color: rgb(0, 132, 255);
-  }
-
-  .thirdes_part:hover::after {
-    width: 75px;
-  }
-
-  .fifth_part::after {
-    content: '';
-    position: absolute;
-    margin-bottom: -10px;
-    height: 3px;
-    background-color: rgb(36, 119, 167);
-    width: 0;
-    left: 74%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-  }
-
-  .fifth_part:hover {
-    color: rgb(0, 132, 255);
-  }
-
-  .fifth_part:hover::after {
-    width: 95px;
-  }
-
-  /*koniec-header*/
- /*opis-elektryk*/
- .opis {
-  font-size:35px;
-  margin-left: -30px;
-}
-
-.opis_photo {
-  margin-top: 100px;
-  margin-left: 30px;
-  width: 280px;
-  height: 220px;
-  border-radius: 4%;
-  background-color: rgba(7, 70, 122, 0.219);
-}
-
-.opis_photo_one {
-  border-radius: 4%;
-  margin-top: -15px;
-  margin-left: -5px;
-  width: 270px;
-}
-
-
-.opis_one {
-  position: relative;
-  top: -200px;
-  left: 350px;
-}
-
-.opis_sity {
-  position: relative;
-  font-size: 23px;
-  top: -360px;
-  left: 420px;
-}
-
-
-.opis_sity_one {
-  position: relative;
-  font-size: 23px;
-  top: -360px;
-  left: 420px;
-}
-
-
-.opis_two {
-  position: relative;
-  top: -470px;
-  left: 570px;
-}
-
-.opis_sity_two {
-  position: relative;
-  font-size: 23px;
-  top: -620px;
-  left: 650px;
-}
-
-.opis_sity_twoi {
-  position: relative;
-  font-size: 19px;
-  top: -620px;
-  left: 650px;
-}
-
-/*koniec-opis-elektryka*/
-/*opis-vakata*/
-
-
-.appellation_one_ap {
-  position: relative;
-  font-size:25px;
-  top: -260px;
-  left: 40px;
-}
-
-.appellation_one {
-  font-size: 25px;
-  position: relative;
-  top: -0px;
-  left: 40px;
-}
-
-.way {
-  margin-top: 20px;
-}
-
-
-.way_one {
-  text-align: center;
-  font-size: 30px;
-  margin-left: 2px;
-  margin-right: 25px;
-}
-
-/*koniec-opisc-vacata*/
-  /*footer*/
-
-  .info_mob {
-    position: absolute;
-  }
-
-  .info {
-    position: relative;
-    top: -200px;
-    left: 1px;
-    width: 890px;
-    height: 630px;
-    background-color: rgb(17, 63, 90);
-    overflow: hidden;
-  }
-
-  .big_foot {
-    padding-left: 90px;
-    padding-top: 5px;
-    font-size: 45px;
-    font-family: 'Playfair Display', serif;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-
-  .guide_one {
-    position: absolute;
-    top: 120px;
-    left: 80px;
-    fill: white;
-  }
-
-  .guide_two {
-    left: 175px;
-    top: 130px;
-  }
-
-  .case {
-    left: 180px;
-    top: 180px;
-  }
-
-  .case_one {
-    left: 85px;
-    top: 250px;
-  }
-
-  .case_two {
-    left: 180px;
-    top: 260px;
-    font-size: 26px;
-  }
-
-  .farther {
-    left: 80px;
-    top: 330px;
-  }
-
-  .farther_one {
-    left: 180px;
-    top: 345px;
-  }
-
-  .beyond {
-    left: 430px;
-    top: 330px;
-  }
-
-  .beyond_one {
-    left: 500px;
-    top: 340px;
-  }
-
-  .outside {
-    left: 80px;
-    top: 410px;
-  }
-
-  .outside_one {
-    left: 170px;
-    top: 420px;
-  }
-
-  .outside_two {
-    left: 435px;
-    top: 410px;
-  }
-
-  .outside_tu_two {
-    left: 505px;
-    top: 420px;
-  }
-
-  .outside_vor {
-    left: 75px;
-    top: 490px;
-  }
-
-  .outside_to_vor {
-    left: 175px;
-    top: 500px;
-  }
-
-  .outside_free {
-    left: 430px;
-    top: 500px;
-    fill: white;
-  }
-
-  .outside_to_free {
-    left: 510px;
-    top:500px;
-  }
-
-  /*koniev-footer*/
-
-
-}
-
-
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
 
@@ -2014,13 +1203,12 @@ body {
   }
   
   
-  
   @media screen and (min-width: 600px) and (max-width: 900px) {
-  
+
     body {
       width: 890px;
       height: auto;
-      margin-left: 5px;
+      margin-left: 2px;
     }
   
     header,
@@ -2038,10 +1226,10 @@ body {
     }
   /*header*/
     .logo_one {
-      width: 150px;
-      height: 150px;
-      margin-left: -580px;
-      margin-top: 10px;
+      width: 130px;
+      height: 130px;
+      margin-left: 10px;
+      margin-top: 5px;
     }
   
     .mn {
@@ -2052,28 +1240,25 @@ body {
       margin-bottom: 10px;
     }
   
-    .big {
+    .BIG {
       position: relative;
       text-align: center;
-      font-size: 45px;
+      font-size: 35px;
       font-family: 'inherit';
       font-weight: bold;
       color: rgb(7, 70, 122);
       transition: all 1s;
       font-weight: bold;
       text-decoration: none;
-      top: 2px;
-      left: 3%;
+      top: 12px;
+      left: -2%;
     }
+  
   
     .line {
-      border-bottom: 1px solid;
-      color: rgb(0, 0, 0);
-      width: 830px;
-      margin-top: 75px;
-      margin-left: 30px;
-  
-    }
+      display: none;
+    
+      }
   
   
     .about,
@@ -2082,229 +1267,171 @@ body {
     .bell {
       float: left;
       margin-top: 80px;
-      margin-bottom: 50px;
+      margin-bottom: 70px;
       position: relative;
     }
   
   
+  .first_part,
+  .second_part,
+  .thirdes_part,
+  .fifth_part_one{
+    margin-left: 55px;
+    margin-top: 50px;
+  }
   
-    .photo {
-      margin-top: 550px;
-      margin-left: 30px;
-      height: 400px;
-      width: 700px;
-    }
-  
-  
-    .job {
-      left: 2%;
-      width: 250px;
-      height: 250px;
-      margin-top: 70px;
-    }
-  
-    .job_but {
-  
-      padding: 20px 30px;
-      margin: 40px 50px;
-  
-    }
-  
-    .bos_but {
-      padding: 20px 30px;
-      margin: 3% 60px;
-    }
-  
-    .PD_one {
-      font-size: 27px;
-    }
-  
-    .PD_but {
-  
-      padding: 10px 20px;
-      margin: 35px 10px 0px 15px;
-    }
-  
-  
-  
-    .informacja_PD {
-      left: 20%;
-      top: -1250px;
-      width: 250px;
-      height: 250px;
-    }
-  
-    .employee {
-      left: 180px;
-      width: 250px;
-      height: 250px;
-      top: -1210px;
-    }
-  
-    .description {
-      display: none;
-    }
-  
-    .first_part,
-    .second_part,
-    .third_part,
-    .fifth_part,
-    .thirdes_part {
-      margin-left: 100px;
-      font-size: 26px;
-    }
-  
-    .first_part::after {
-      content: '';
-      position: absolute;
-      margin-bottom: -10px;
-      height: 3px;
-      background-color: rgb(36, 119, 167);
-      width: 0;
-      left: 79%;
-      bottom: 0;
-      transform: translateX(-50%);
-      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-    }
-  
-    .first_part:hover {
-      color: rgb(0, 132, 255);
-    }
-  
-    .first_part:hover::after {
-      width: 60px;
-    }
-  
-  
-    .second_part::after {
-      content: '';
-      position: absolute;
-      margin-bottom: -10px;
-      height: 3px;
-      background-color: rgb(36, 119, 167);
-      width: 0;
-      left: 75%;
-      bottom: 0;
-      transform: translateX(-50%);
-      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-    }
-  
-    .second_part:hover {
-      color: rgb(0, 132, 255);
-    }
-  
-    .second_part:hover::after {
-      width: 78px;
-    }
-  
-    .thirdes_part::after {
-      content: '';
-      position: absolute;
-      margin-bottom: -10px;
-      height: 3px;
-      background-color: rgb(36, 119, 167);
-      width: 0;
-      left: 77%;
-      bottom: 0;
-      transform: translateX(-50%);
-      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-    }
-  
-    .thirdes_part:hover {
-      color: rgb(0, 132, 255);
-    }
-  
-    .thirdes_part:hover::after {
-      width: 75px;
-    }
-  
-    .fifth_part::after {
-      content: '';
-      position: absolute;
-      margin-bottom: -10px;
-      height: 3px;
-      background-color: rgb(36, 119, 167);
-      width: 0;
-      left: 74%;
-      bottom: 0;
-      transform: translateX(-50%);
-      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-    }
-  
-    .fifth_part:hover {
-      color: rgb(0, 132, 255);
-    }
-  
-    .fifth_part:hover::after {
-      width: 95px;
-    }
+    
+  .first_part::after {
+    content: '';
+    position: absolute;
+    margin-bottom: -10px;
+    height: 3px;
+    background-color: rgb(36, 119, 167);
+    width: 0;
+    left: 70%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+
+  .first_part:hover {
+    color: rgb(0, 132, 255);
+  }
+
+  .first_part:hover::after {
+    width: 80px;
+  }
+
+
+  .second_part::after {
+    content: '';
+    position: absolute;
+    margin-bottom: -10px;
+    height: 3px;
+    background-color: rgb(36, 119, 167);
+    width: 0;
+    left: 70%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+
+  .second_part:hover {
+    color: rgb(0, 132, 255);
+  }
+
+  .second_part:hover::after {
+    width: 88px;
+  }
+
+  .thirdes_part::after {
+    content: '';
+    position: absolute;
+    margin-bottom: -10px;
+    height: 3px;
+    background-color: rgb(36, 119, 167);
+    width: 0;
+    left: 70%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+
+  .thirdes_part:hover {
+    color: rgb(0, 132, 255);
+  }
+
+  .thirdes_part:hover::after {
+    width: 85px;
+  }
+
+  .fifth_part_one::after {
+    content: '';
+    position: absolute;
+    margin-bottom: -10px;
+    height: 3px;
+    background-color: rgb(36, 119, 167);
+    width: 0;
+    left: 64%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+
+  .fifth_part_one:hover {
+    color: rgb(0, 132, 255);
+  }
+
+  .fifth_part_one:hover::after {
+    width: 105px;
+  }
   
     /*koniec-header*/
    /*opis-elektryk*/
    .opis {
     font-size:35px;
-    margin-left: -30px;
+    margin-left: -210px;
   }
   
   .opis_photo {
-    margin-top: 100px;
-    margin-left: 30px;
-    width: 280px;
-    height: 220px;
-    border-radius: 4%;
-    background-color: rgba(7, 70, 122, 0.219);
-  }
+      margin-top: 70px;
+      margin-left: 90px;
+      width: 220px;
+      height: 180px;
+      border-radius: 4%;
+      background-color: rgba(7, 70, 122, 0.219);
+    }
   
-  .opis_photo_one {
-    border-radius: 4%;
-    margin-top: -15px;
-    margin-left: -5px;
-    width: 270px;
-    height: 220px;
-  }
-  
-  
-  .opis_one {
-    position: relative;
-    top: -200px;
-    left: 350px;
-  }
-  
-  .opis_sity {
-    position: relative;
-    font-size: 23px;
-    top: -360px;
-    left: 420px;
-  }
+    .opis_photo_one {
+      border-radius: 4%;
+      margin-top: -25px;
+      margin-left: -15px;
+      width: 220px;
+      height: 180px;
+    }
   
   
-  .opis_sity_one {
-    position: relative;
-    font-size: 23px;
-    top: -360px;
-    left: 420px;
-  }
+    .opis_one {
+      position: relative;
+      top: -150px;
+      left: 350px;
+    }
+  
+    .opis_sity {
+      position: relative;
+      font-size: 21px;
+      top: -320px;
+      left: 415px;
+    }
   
   
-  .opis_two {
-    position: relative;
-    top: -470px;
-    left: 570px;
-  }
+    .opis_sity_one {
+      position: relative;
+      font-size: 21px;
+      top: -330px;
+      left: 415px;
+    }
   
-  .opis_sity_two {
-    position: relative;
-    font-size: 23px;
-    top: -620px;
-    left: 650px;
-  }
   
-  .opis_sity_twoi {
-    position: relative;
-    font-size: 19px;
-    top: -620px;
-    left: 650px;
-  }
+    .opis_two {
+      position: relative;
+      top: -320px;
+      left: 350px;
+    }
+  
+    .opis_sity_two {
+      position: relative;
+      font-size: 21px;
+      top: -490px;
+      left: 420px;
+    }
+  
+    .opis_sity_twoi {
+      position: relative;
+      font-size: 21px;
+      top: -500px;
+      left: 420px;
+    }
   
   /*koniec-opis-elektryka*/
   /*opis-vakata*/
@@ -2331,11 +1458,11 @@ body {
   
   .way_one {
     text-align: center;
-    font-size: 30px;
-    margin-left: 2px;
-    margin-right: 55px;
-  }
+    font-size: 35px;
+    margin-right: 250px;
+  margin-left: 50px;
   
+  }
   /*koniec-opisc-vacata*/
     /*footer*/
   
@@ -2345,16 +1472,16 @@ body {
   
     .info {
       position: relative;
-      top: -200px;
+      top: -50px;
       left: 1px;
-      width: 890px;
+      width: 770px;
       height: 630px;
       background-color: rgb(17, 63, 90);
       overflow: hidden;
     }
   
     .big_foot {
-      padding-left: 90px;
+      padding-left: 30px;
       padding-top: 5px;
       font-size: 45px;
       font-family: 'Playfair Display', serif;
@@ -2365,29 +1492,32 @@ body {
     .guide_one {
       position: absolute;
       top: 120px;
-      left: 80px;
+      left: 60px;
       fill: white;
     }
   
     .guide_two {
       left: 175px;
       top: 130px;
+      width: 400px;
+      font-size: 30px;
     }
   
     .case {
       left: 180px;
-      top: 180px;
+      top: 160px;
+      font-size: 30px;
     }
   
     .case_one {
-      left: 85px;
+      left: 65px;
       top: 250px;
     }
   
     .case_two {
       left: 180px;
       top: 260px;
-      font-size: 26px;
+      font-size: 28px;
     }
   
     .farther {
@@ -2455,5 +1585,8 @@ body {
   
   
   }
+  
+  
+
   
   
