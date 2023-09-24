@@ -506,13 +506,18 @@ body{
         body {
           width: 390px;
           height: auto;
-          margin-left: -2px;
+          margin-left: auto;
+         margin-right: auto;
         }
       
       
         header,
-        main,
         footer {
+          overflow-x: hidden;
+        }
+
+        main{
+          margin-left: 10px;
           overflow-x: hidden;
         }
       
@@ -673,8 +678,8 @@ body{
 
 .easy{
   font-size: 35px;
-  margin-left: 10px;
-  margin-right: 25px;
+  margin-left: 5px;
+  
 }
 
 
@@ -682,7 +687,7 @@ body{
 .strip_one{
   width: 170px;
   height: 2px;
-  top: 580px;
+  top: 500px;
 }
 
 .aesily{
@@ -915,8 +920,12 @@ body{
           margin-right: 20px;
         }
         header,
-        main,
         footer {
+          overflow-x: hidden;
+        }
+
+        main{
+          margin-left: 10px;
           overflow-x: hidden;
         }
       
@@ -1333,9 +1342,13 @@ body{
   }
 
   header,
-  main,
   footer {
     overflow-x: hidden;
+  }
+
+  main{
+    overflow-x: hidden;
+    margin-left: 10px;
   }
 
   ul {
