@@ -28,10 +28,13 @@ li {
 
 .logo {
   position: absolute;
-  top: -15px;
-  left: 0;
 }
 
+.logo_one{
+  position: relative;
+  top: 0px;
+  left: 30px;
+}
 
 .line {
   border-bottom: 2px solid;
@@ -68,14 +71,23 @@ li {
 .first_part,
 .second_part,
 .third_part,
-.fifth_part,
 .thirdes_part {
   margin-left: 230px;
   text-decoration: none;
   color: black;
   font-size: 30px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: rgb(7, 70, 122);
+  transition: all 1s;
+}
+
+.fifth_part_one{
+  margin-left: 230px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(7, 70, 122);
   transition: all 1s;
 }
 
@@ -144,7 +156,7 @@ li {
   width: 90px;
 }
 
-.fifth_part::after {
+.fifth_part_one::after {
   content: '';
   position: absolute;
   margin-bottom: -10px;
@@ -157,20 +169,15 @@ li {
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
 }
 
-.fifth_part:hover {
+.fifth_part_one:hover {
   color: rgb(0, 132, 255);
 }
 
-.fifth_part:hover::after {
+.fifth_part_one:hover::after {
   width: 120px;
 }
 
-.fifth_part {
-  margin-left: 228px;
-  text-decoration: none;
-  color: black;
-  font-size: large;
-}
+
 
 /*koniec header*/
 
@@ -198,6 +205,8 @@ li {
   border-radius: 4%;
   margin-top: -10px;
   margin-left: -15px;
+  width:400px;
+   height:320px;
 }
 
 .opis_mapr {
@@ -285,7 +294,7 @@ li {
   width: 1600px;
   height: 350px;
   background-color: rgb(17, 63, 90);
-  margin-top: 250px;
+  margin-top: 50px;
   overflow: hidden;
 }
 
@@ -445,7 +454,8 @@ li {
   body {
     width: 399px;
     height: auto;
-    margin-left: 2px;
+    margin-left: auto;
+   margin-right: auto;
   }
 
 
@@ -466,10 +476,10 @@ li {
 
   /*header*/
   .logo_one {
-    width: 90px;
+    width: 89px;
     height: 90px;
-    margin-left: 0px;
-    margin-top: 30px;
+    margin-left: -37px;
+    margin-top: 5px;
   }
 
   .mn {
@@ -490,8 +500,8 @@ li {
     transition: all 1s;
     font-weight: bold;
     text-decoration: none;
-    top: 12px;
-    left: 3%;
+    top: 11px;
+    left: 2%;
   }
 
   .line {
@@ -501,24 +511,34 @@ li {
   .first_part,
   .second_part,
   .third_part,
-  .fifth_part,
   .thirdes_part {
-    margin-left: 24px;
-    font-size: 18px;
+    margin-left: 15px;
+    font-size: 20px;
     color: rgb(7, 70, 122);
   }
 
+  .about,
+   .career,
+   .price,
+   .bell{
+   margin-top: 40px;
+   }
 
+  .fifth_part_one{
+    margin-left: 25px;
+    font-size: 20px;
+    color: rgb(7, 70, 122);
+   }
 
 
   .first_part::after {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
-    left: 68%;
+    left: 65%;
     bottom: 0;
     transform: translateX(-50%);
     transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -533,25 +553,25 @@ li {
   }
 
 
-  .fifth_part::after {
+  .fifth_part_one::after {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
-    left: 63%;
+    left: 60%;
     bottom: 0;
     transform: translateX(-50%);
     transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
   }
 
-  .fifth_part:hover {
+  .fifth_part_one:hover {
     color: rgb(0, 132, 255);
   }
 
-  .fifth_part:hover::after {
-    width: 70px;
+  .fifth_part_one:hover::after {
+    width: 80px;
   }
 
 
@@ -559,7 +579,7 @@ li {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 63%;
@@ -582,7 +602,7 @@ li {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 65%;
@@ -603,7 +623,8 @@ li {
   /*opis-elektryk*/
   .opis {
     font-size: 30px;
-    margin-left: -30px;
+    margin-left: -10px;
+    margin-top: 15px;
   }
 
   .opis_photo {
@@ -645,13 +666,11 @@ li {
     left: 280px;
   }
 
-
   .opis_two {
     position: relative;
-    top: -350px;
+    top: -330px;
     left: 215px;
   }
-
   .opis_sity_two {
     position: relative;
     font-size: 18px;
@@ -704,8 +723,8 @@ li {
 
   .info {
     position: relative;
-    top: -250px;
-    left: 1%;
+    top: -50px;
+    left: 0%;
     width: 380px;
     height: 650px;
     background-color: rgb(17, 63, 90);
@@ -715,7 +734,7 @@ li {
   .big_foot {
     padding-left: 18px;
     padding-top: 15px;
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Playfair Display', serif;
     color: rgb(255, 255, 255);
     text-decoration: none;

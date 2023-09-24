@@ -24,9 +24,15 @@ li {
 
 .logo {
   position: absolute;
-  top: -15px;
-  left: 0;
+
 }
+
+.logo_one{
+  position: relative;
+  top: 0px;
+  left: 30px;
+}
+
 
 
 .line {
@@ -53,7 +59,6 @@ li {
 
 .about,
 .career,
-
 .price,
 .bell {
   float: left;
@@ -65,14 +70,21 @@ li {
 .first_part,
 .second_part,
 .third_part,
-.fifth_part,
 .thirdes_part {
   margin-left: 230px;
   text-decoration: none;
-  color: black;
   font-size: 30px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color:rgb(7, 70, 122);
+  transition: all 1s;
+}
+
+.fifth_part_one{
+  margin-left: 230px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color:rgb(7, 70, 122);
   transition: all 1s;
 }
 
@@ -283,7 +295,7 @@ li {
   width: 1600px;
   height: 350px;
   background-color: rgb(17, 63, 90);
-  margin-top: 250px;
+  margin-top: 50px;
   overflow: hidden;
 }
 
@@ -446,7 +458,7 @@ li {
     width: 399px;
     height: auto;
     margin-left: auto;
-  margin-right: auto;
+   margin-right: auto;
   }
 
 
@@ -467,10 +479,10 @@ li {
 
   /*header*/
   .logo_one {
-    width: 90px;
-    height: 90px;
-    margin-left: 0px;
-    margin-top: 25px;
+    width: 80px;
+    height: 80px;
+    margin-left: -37px;
+    margin-top: 5px;
   }
 
   .mn {
@@ -492,7 +504,7 @@ li {
     font-weight: bold;
     text-decoration: none;
     top: 10px;
-    left: 3%;
+    left: 1%;
   }
 
   .line {
@@ -502,21 +514,24 @@ li {
   .first_part,
   .second_part,
   .third_part,
-  .fifth_part,
   .thirdes_part {
-    margin-left: 24px;
-    font-size: 18px;
+    margin-left: 18px;
+    font-size: 20px;
     color: rgb(7, 70, 122);
   }
 
-
+ .fifth_part_one{
+  margin-left: 24px;
+  font-size: 20px;
+  color: rgb(7, 70, 122);
+ }
 
 
   .first_part::after {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 68%;
@@ -534,24 +549,24 @@ li {
   }
 
 
-  .fifth_part::after {
+  .fifth_part_one::after {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
-    left: 63%;
+    left: 60%;
     bottom: 0;
     transform: translateX(-50%);
     transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
   }
 
-  .fifth_part:hover {
+  .fifth_part_one:hover {
     color: rgb(0, 132, 255);
   }
 
-  .fifth_part:hover::after {
+  .fifth_part_one:hover::after {
     width: 70px;
   }
 
@@ -560,7 +575,7 @@ li {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 63%;
@@ -583,7 +598,7 @@ li {
     content: '';
     position: absolute;
     margin-bottom: -10px;
-    height: 3px;
+    height: 2px;
     background-color: rgb(36, 119, 167);
     width: 0;
     left: 65%;
@@ -603,8 +618,8 @@ li {
   /*koniec-header*/
   /*opis-elektryk*/
   .opis {
-    font-size: 30px;
-    margin-left: -30px;
+    font-size: 28px;
+    margin-left: 0px;
   }
 
   .opis_photo {
@@ -621,6 +636,7 @@ li {
     margin-top: -10px;
     margin-left: -10px;
     width: 170px;
+    height: 130px;
   }
 
 
@@ -683,12 +699,14 @@ li {
     position: relative;
     top: -50px;
     left: 15px;
+
+
   }
 main{
   margin-right: 20px;
 }
   .way {
-    margin-top: 20px;
+    margin-top: -50px;
   }
 
 
@@ -703,22 +721,23 @@ main{
 
   .info_mob {
     position: absolute;
+
   }
 
   .info {
     position: relative;
-    top: -250px;
+    top: -50px;
     left: 0%;
     width: 380px;
-    height: 650px;
+    height: 690px;
     background-color: rgb(17, 63, 90);
     overflow: hidden;
   }
 
   .big_foot {
-    padding-left: 18px;
+    padding-left: 25px;
     padding-top: 15px;
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Playfair Display', serif;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -851,8 +870,8 @@ main{
   .logo_one {
     width: 95px;
     height: 95px;
-    margin-left: -10px;
-    margin-top: 7px;
+    margin-left: -35px;
+    margin-top: 0px;
   }
 
   .mn {
@@ -866,15 +885,15 @@ main{
   .big {
     position: relative;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'inherit';
     font-weight: bold;
     color: rgb(7, 70, 122);
     transition: all 1s;
     font-weight: bold;
     text-decoration: none;
-    top: 2px;
-    left:-3px ;
+    top: 10px;
+    left:-25px ;
   }
 
   .line {
@@ -884,9 +903,9 @@ main{
   .first_part,
   .second_part,
   .third_part,
-  .fifth_part,
+  .fifth_part_one,
   .thirdes_part {
-    margin-left: 55px;
+    margin-left: 28px;
     font-size: 18px;
     color: rgb(7, 70, 122);
   }
