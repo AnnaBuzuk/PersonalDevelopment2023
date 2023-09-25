@@ -1023,12 +1023,16 @@ padding-left: 10px;
 }
 /*koniec-elektryk*/
 /*slusarz*/
+.dissociation{
+  width: 300px;
+  height: 300px;
+}
 
 .unit_two{
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 270px;
+  margin-top: 20px;
 }
 
 .unit_two_name{
@@ -1057,7 +1061,7 @@ padding-left: 10px;
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 540px;
+  margin-top: 40px;
 }
 
 .unit_three_name{
@@ -1085,7 +1089,7 @@ padding-left: 10px;
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 820px;
+  margin-top: 60px;
 }
 
 .unit_four_name{
@@ -1111,7 +1115,7 @@ padding-left: 10px;
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 1100px;
+  margin-top: 80px;
 }
 
 .unit_five_name{
@@ -1139,7 +1143,7 @@ padding-left: 10px;
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 1380px;
+  margin-top: 100px;
 }
 
 .unit_six_name{
@@ -1165,7 +1169,7 @@ padding-left: 10px;
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 1660px;
+  margin-top: 120px;
 }
 
 .unit_seven_name{
@@ -1195,7 +1199,7 @@ padding-left: 10px;
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 1950px;
+  margin-top: 120px;
 }
 
 .unit_eight_name{
@@ -1219,11 +1223,12 @@ padding-left: 10px;
 
 
 
-/*WWniosek*/
+
+/*Wniosek*/
 
 .conclusion_one{
   left: 90px;
-  top:2230px;
+  top:130px;
   font-size: 20px;
   width: 200px;
   height: 500px;
@@ -1241,9 +1246,8 @@ padding-left: 10px;
 }
 
 .info {
-  margin-top: 2520px; 
+  margin-top: 400px; 
   position: relative;
-  top: -50px;
   left: 0%;
   width: 380px;
   height: 690px;
@@ -1519,7 +1523,10 @@ li {
   margin-left: -160px;
 }
 /*elektryk*/
-
+.dissociation{
+  width: 300px;
+  height: 300px;
+}
 
 .unit_one{
   width: 250px;
@@ -1551,7 +1558,7 @@ li {
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 270px;
+  margin-top: 0px;
 }
 
 .unit_two_name{
@@ -1580,7 +1587,7 @@ li {
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 540px;
+  margin-top:10px;
 }
 
 .unit_three_name{
@@ -1608,7 +1615,7 @@ li {
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 820px;
+  margin-top: 10px;
 }
 
 .unit_four_name{
@@ -1634,7 +1641,7 @@ li {
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 1100px;
+  margin-top: 10px;
 }
 
 .unit_five_name{
@@ -1662,7 +1669,7 @@ li {
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 1380px;
+  margin-top: 10px;
 }
 
 .unit_six_name{
@@ -1688,7 +1695,7 @@ li {
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 1660px;
+  margin-top: 10px;
 }
 
 .unit_seven_name{
@@ -1718,7 +1725,7 @@ li {
   width: 250px;
   height: 230px;
   margin-left: 60px;
-  margin-top: 1950px;
+  margin-top: 10px;
 }
 
 .unit_eight_name{
@@ -1746,7 +1753,7 @@ li {
 
 .conclusion_one{
   left: 90px;
-  top:2230px;
+  top:10px;
   font-size: 20px;
   width: 200px;
   height: 500px;
@@ -1761,7 +1768,7 @@ li {
 
 .info {
   position: relative;
-  top: 1200px;
+  top: -1200px;
   left: 0%;
   width: 570px;
   height: 650px;
