@@ -234,6 +234,7 @@ body{
     padding: 15px;
     font-size: 15px;
     font-weight: bold; 
+    
     }
     
     .statement_two{
@@ -242,7 +243,8 @@ body{
     height: 45px;
     text-align: center;
     padding-top: 5px;
-    background-color:  rgba(7, 70, 122, 0.336);  
+    color: white;
+    background-color: rgb(7, 70, 122);
     }
     
     .statement:hover{
