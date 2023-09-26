@@ -83,14 +83,17 @@ body{
     
     
     
-    .first_part,.second_part,.third_part,.fifth_part,.thirdes_part{
+    .first_part,
+    .second_part,
+    .third_part,
+    .fifth_part,
+    .thirdes_part{
     margin-left: 230px;
     text-decoration: none;
-    color: black;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(0, 0, 0);
     transition: all 1s;
+    color: rgb(7, 70, 122);
     }
     
     .first_part::after{
