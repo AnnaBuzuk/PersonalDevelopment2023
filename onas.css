@@ -919,7 +919,7 @@ body{
         body {
           width: 590px;
           height: auto;
-          margin-left: -5px;
+          margin-left: 0px;
           margin-right: 20px;
         }
         header,
@@ -941,9 +941,9 @@ body{
         }
   
         .logo_one {
-          width: 120px;
-          height: 120px;
-          margin-left: 10px;
+          width: 90px;
+          height: 90px;
+          margin-left: 0px;
           margin-top: 5px;
         }
       
@@ -958,15 +958,15 @@ body{
         .big {
           position: relative;
           text-align: center;
-          font-size: 23px;
+          font-size: 24px;
           font-family: 'inherit';
           font-weight: bold;
           color: rgb(7, 70, 122);
           transition: all 1s;
           font-weight: bold;
           text-decoration: none;
-          top: 9px;
-          left: 1%;
+          top: 2px;
+          left: -4%;
         }
   
         .big_one{
@@ -984,8 +984,8 @@ body{
         .third_part,
         .fifth_part,
         .thirdes_part {
-          margin-left: 39px;
-          font-size: 22px;
+          margin-left: 25px;
+          font-size: 20px;
           color: rgb(7, 70, 122);
       
         }
@@ -1096,7 +1096,7 @@ body{
 
 
 .easy{
-  font-size: 35px;
+  font-size: 32px;
   margin-left: 10px;
   margin-right: 60px;
 }
@@ -1106,31 +1106,31 @@ body{
 .strip_one{
   width: 180px;
   height: 2px;
-  top: 615px;
+  top: 700px;
 }
 
 .aesily{
   font-size: 20px;
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
 }
 
 .simply{
   font-size: 20px;
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
 }
 
 .readli{
   font-size: 20px;
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
 }
 
 .mild_one{
   font-size: 20px;
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
   }
   
   /*koniec-latwosc-wspolpracy*/
@@ -1145,19 +1145,19 @@ body{
 .mild_two{
   font-size: 20px; 
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
 }
 
 .share{
   font-size: 35px;
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
 }
 
 .share_one{
   font-size: 20px; 
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
 }
 
 /*konies-szlokinie*/
@@ -1173,25 +1173,26 @@ body{
   .whole_one{
     font-size: 30px;
     margin-left: 10px;
-    margin-right: 60px;
+    margin-right: 100px;
   }
 
 .whole_two{
   font-size: 20px;
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
 }
  /*koniec-RBH*/
 /*rekrytacja*/
 .half{
   font-size: 35px;
   margin-left: 15px;
-  margin-right: 35px;
+  margin-right: 180px;
 }
 
 .half_one{
   margin-left: 15px;
   font-size: 30px;
+  margin-right: 180px;
 }
 
 
@@ -1204,7 +1205,7 @@ body{
    .colophon,.name_me,.business,.business_tel{
   font-size: 28px;
   margin-left: 15px;
-  margin-right: 60px;
+  margin-right: 180px;
 }
 
 
