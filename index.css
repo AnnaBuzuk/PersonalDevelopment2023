@@ -709,128 +709,128 @@ li {
     left: -15px;
   }
 
-.big{
-  margin-left: -8%;
-}
+  .big {
+    margin-left: -8%;
+  }
 
-.about,
-.career,
-.price,
-.bell {
-margin-left: -20px;
-}
+  .about,
+  .career,
+  .price,
+  .bell {
+    margin-left: -20px;
+  }
 
-.photo{
-  margin-left: 2%;
-  
-
-
-}
+  .photo {
+    margin-left: 2%;
 
 
 
-.description {
-  left:-100px
-}
-
-/*footer*/
-.info{
-  width: 1440px;
-  height: 350px;
-  margin-left: 5px;
-}
-
-.big_foot {
-  padding-left: 90px;
-}
-
-.guide_one{
-  left: 800px;
-}
-
-.guide_two{
-  left: 870px;
-  font-size: 28px;
-}
-
-
-.case{
-  left: 90px;
-  font-size: 27px;
-}
-
-.case_one{
-  left: 270px;
-}
-
-.case_two {
-  left: 340px;
-}
-
-
-.farther{
-  left: 770px; 
-}
-
-
-.farther_one {
-  left: 850px;
-}
-
-.beyond {
-  left: 980px;
-}
+  }
 
 
 
-.beyond_one {
-  left: 1050px;
-}
+  .description {
+    left: -100px
+  }
+
+  /*footer*/
+  .info {
+    width: 1440px;
+    height: 350px;
+    margin-left: 5px;
+  }
+
+  .big_foot {
+    padding-left: 90px;
+  }
+
+  .guide_one {
+    left: 800px;
+  }
+
+  .guide_two {
+    left: 870px;
+    font-size: 28px;
+  }
+
+
+  .case {
+    left: 90px;
+    font-size: 27px;
+  }
+
+  .case_one {
+    left: 270px;
+  }
+
+  .case_two {
+    left: 340px;
+  }
+
+
+  .farther {
+    left: 770px;
+  }
+
+
+  .farther_one {
+    left: 850px;
+  }
+
+  .beyond {
+    left: 980px;
+  }
 
 
 
-.outside_one {
- 
-  left: 850px;
-}
-
-.outside_two{
-  left: 270px;
-}
-
-
-.outside {
-  left: 770px;
-}
+  .beyond_one {
+    left: 1050px;
+  }
 
 
 
-.outside_tu_two {
-  
-  left: 340px;
- 
-}
+  .outside_one {
 
-.outside_vor {
-  left: 490px;
-  top: 240px;
-}
+    left: 850px;
+  }
+
+  .outside_two {
+    left: 270px;
+  }
 
 
-.outside_to_vor {
-
-  left: 560px;
-
-}
+  .outside {
+    left: 770px;
+  }
 
 
-.outside_free {
-  left: 970px;
-}
 
-.outside_to_free {
-  left: 1025px;
-}
+  .outside_tu_two {
+
+    left: 340px;
+
+  }
+
+  .outside_vor {
+    left: 490px;
+    top: 240px;
+  }
+
+
+  .outside_to_vor {
+
+    left: 560px;
+
+  }
+
+
+  .outside_free {
+    left: 970px;
+  }
+
+  .outside_to_free {
+    left: 1025px;
+  }
 
 
 
@@ -851,7 +851,7 @@ margin-left: -20px;
     margin-right: 40px;
   }
 
-  
+
 
   ul {
     padding-left: 0;
@@ -900,7 +900,7 @@ margin-left: -20px;
     width: 1200px;
     margin-top: 40px;
     margin-left: 30px;
-margin-bottom: -10px;
+    margin-bottom: -10px;
   }
 
 
@@ -1103,8 +1103,10 @@ margin-bottom: -10px;
     padding: 30px 20px;
     margin: 20px 0px 0px 80px;
   }
-.PD_one
-{font-size: 33px;}
+
+  .PD_one {
+    font-size: 33px;
+  }
 
   .informacja_PD {
     left: 53%;
@@ -1135,119 +1137,120 @@ margin-bottom: -10px;
   /*koniec-blok-boss*/
 
 
-.description{
-  display: none;
-}
+  .description {
+    display: none;
+  }
 
-main{
-  margin-bottom: -790px;
- }
-.photo{
-  width: 1200px;
-  height: 600px;
-  margin-left: 25px;
-}
+  main {
+    margin-bottom: -790px;
+  }
 
-
-
-/*footer*/
-.info{
-  width: 1240px;
-  height: 350px;
-  margin-left: 5px;
-}
-
-.big_foot {
-  padding-left: 70px;
-}
-
-.guide_one{
-  left: 750px;
-}
-
-.guide_two{
-  left: 820px;
-  font-size: 28px;
-}
-
-
-.case{
-  left: 70px;
-  font-size: 27px;
-}
-
-.case_one{
-  left: 250px;
-}
-
-.case_two {
-  left: 320px;
-}
-
-
-.farther{
-  left: 750px; 
-}
-
-
-.farther_one {
-  left: 830px;
-}
-
-.beyond {
-  left: 960px;
-}
+  .photo {
+    width: 1200px;
+    height: 600px;
+    margin-left: 25px;
+  }
 
 
 
-.beyond_one {
-  left: 1030px;
-}
+  /*footer*/
+  .info {
+    width: 1240px;
+    height: 350px;
+    margin-left: 5px;
+  }
+
+  .big_foot {
+    padding-left: 70px;
+  }
+
+  .guide_one {
+    left: 750px;
+  }
+
+  .guide_two {
+    left: 820px;
+    font-size: 28px;
+  }
+
+
+  .case {
+    left: 70px;
+    font-size: 27px;
+  }
+
+  .case_one {
+    left: 250px;
+  }
+
+  .case_two {
+    left: 320px;
+  }
+
+
+  .farther {
+    left: 750px;
+  }
+
+
+  .farther_one {
+    left: 830px;
+  }
+
+  .beyond {
+    left: 960px;
+  }
 
 
 
-.outside_one {
- 
-  left: 830px;
-}
-
-.outside_two{
-  left: 250px;
-}
-
-
-.outside {
-  left: 750px;
-}
+  .beyond_one {
+    left: 1030px;
+  }
 
 
 
-.outside_tu_two {
-  
-  left: 320px;
- 
-}
+  .outside_one {
 
-.outside_vor {
-  left: 480px;
-  top: 235px;
-}
+    left: 830px;
+  }
+
+  .outside_two {
+    left: 250px;
+  }
 
 
-.outside_to_vor {
-
-  left: 560px;
-
-}
+  .outside {
+    left: 750px;
+  }
 
 
-.outside_free {
-  left: 970px;
-}
 
-.outside_to_free {
-  left: 1025px;
-}
+  .outside_tu_two {
+
+    left: 320px;
+
+  }
+
+  .outside_vor {
+    left: 480px;
+    top: 235px;
+  }
+
+
+  .outside_to_vor {
+
+    left: 560px;
+
+  }
+
+
+  .outside_free {
+    left: 970px;
+  }
+
+  .outside_to_free {
+    left: 1025px;
+  }
 
 
 
@@ -1544,9 +1547,9 @@ main{
 
   /*koniec-blok-boss*/
   /*footer*/
- .info_mob {
+  .info_mob {
     position: absolute;
-    height:0px;
+    height: 0px;
   }
 
   .info {
@@ -1658,7 +1661,7 @@ main{
 
   .outside_to_free {
     left: 510px;
-    top:500px;
+    top: 500px;
   }
 
 
@@ -1672,8 +1675,8 @@ main{
   body {
     width: 590px;
     height: auto;
-    margin-left:5%;
-   margin-right: auto;
+    margin-left: 1%;
+    margin-right: auto;
   }
 
 
@@ -1696,7 +1699,7 @@ main{
 
 
   .mn {
-   position: sticky;
+    position: sticky;
     top: 0px;
     z-index: 2;
     background-color: white;
@@ -1706,22 +1709,25 @@ main{
   .big {
     position: relative;
     text-align: center;
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'inherit';
     font-weight: bold;
     color: rgb(7, 70, 122);
     transition: all 1s;
     font-weight: bold;
     text-decoration: none;
-    top: 2px;
-    left: -9%;
+    top: 7px;
+    left: -10%;
   }
 
   .line {
     display: none;
   }
 
-  .about,.career,.price,.bell{
+  .about,
+  .career,
+  .price,
+  .bell {
     margin-left: -5px;
   }
 
@@ -1832,7 +1838,7 @@ main{
 
 
   .job {
-    left:1%;
+    left: 1%;
     width: 400px;
     height: 200px;
   }
@@ -2011,7 +2017,7 @@ main{
     width: 399px;
     height: auto;
     margin-left: auto;
-   margin-right: auto;
+    margin-right: auto;
   }
 
 
@@ -2029,7 +2035,7 @@ main{
     list-style-type: none;
   }
 
-  /*header*/ 
+  /*header*/
   .logo_one {
     width: 80px;
     height: 80px;
