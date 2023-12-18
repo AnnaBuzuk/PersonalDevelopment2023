@@ -70,6 +70,7 @@ li {
 
 .about,
 .career,
+.azja,
 .price,
 .bell {
   float: left;
@@ -82,10 +83,11 @@ li {
 
 .first_part,
 .second_part,
+.azja_part,
 .third_part,
 .fifth_part,
 .thirdes_part {
-  margin-left: 230px;
+  margin-left: 155px;
   text-decoration: none;
   color: black;
   font-size: 30px;
@@ -137,6 +139,27 @@ li {
   width: 99px;
 }
 
+
+.azja_part::after {
+  content: '';
+  position: absolute;
+  margin-bottom: -10px;
+  height: 3px;
+  background-color: rgb(36, 119, 167);
+  width: 0;
+  left: 75%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.azja_part:hover {
+  color: rgb(0, 132, 255);
+}
+
+.azja_part:hover::after {
+  width: 250px;
+}
 
 
 .thirdes_part::after {
@@ -450,89 +473,143 @@ li {
   position: absolute;
 }
 
-.digit {
-  position: relative;
-  top: -300px;
-  left: 50px;
-  margin-left: 200px;
-}
 
-.digit_one {
-  font-size: 30px;
-  color: rgb(7, 70, 122);
-}
 
-.digit_two {
-  font-size: 70px;
-  color: rgb(7, 70, 122);
-}
 
-.line_digit {
-  width: 2px;
-  height: 450px;
-  background-color: rgb(7, 70, 122);
-  position: relative;
-  top: -670px;
-  left: 650px;
 
-}
 
-.digit_free {
-  font-size: 35px;
-  color: rgb(7, 70, 122);
-  transition: all 1s;
-}
+
 
 .count {
   position: relative;
-  top: -1150px;
-  left: 750px;
-  font-size: 25px;
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: #89898a;
+  top: -350px;
+  left: 110px;
+  
   color: rgb(7, 70, 122);
 }
 
-.count_line {
-  width: 630px;
-  height: 2px;
-  position: relative;
-  top: -1150px;
-  left: 705px;
-  background-color: rgb(7, 70, 122)
+.count_one{
+  fill:  #89898a;
+  margin-left: 30%;
+  margin-top: 5%;
+margin-bottom: -50px;
 }
+
+
+.count_two{
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 110px;
+}
+
+.count_three{
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+
 
 
 .quanity {
   position: relative;
-  top: -1150px;
-  left: 750px;
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: #89898a;
+  top: -655px;
+  left: 470px;
   font-size: 25px;
   color: rgb(7, 70, 122);
 
 }
+
+
+.quanity_one{
+  fill:  #89898a;
+  margin-left: 33%;
+  margin-top: 5%;
+margin-bottom: -50px;
+}
+
+.quanity_two{
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 100px;
+}
+
+.quanity_three{
+  font-size: 25px;
+  margin-left: 0px;
+  margin-top:-10px;
+  text-align: center;
+}
+
+
 
 .figure {
   position: relative;
-  top: -2050px;
-  left: 1100px;
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: #89898a;
+  top: -960px;
+  left: 835px;
   font-size: 25px;
   color: rgb(7, 70, 122);
 }
 
-.figure_line {
-  width: 2px;
-  height: 450px;
-  position: relative;
-  top: -1580px;
-  left: 1050px;
-  background-color: rgb(7, 70, 122)
+.figure_one{
+  fill:  #89898a;
+  margin-left: 33%;
+  margin-top: 5%;
+  margin-bottom: -50px; 
 }
+
+.figure_two{
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 100px; 
+}
+.figure_three{
+  font-size: 25px;
+  margin-top:-10px;
+  text-align: center;
+}
+
 
 .nubr {
   position: relative;
-  top: -2030px;
-  left: 1100px;
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: #89898a;
+  top: -1267px;
+  left: 1200px;
   font-size: 25px;
   color: rgb(7, 70, 122);
+}
+
+.nubr_one{
+  fill:  #89898a;
+  margin-left: 33%;
+  margin-top: 5%;
+  margin-bottom: -50px; 
+}
+
+.nubr_two{
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 100px; 
+}
+
+.nubr_three{
+  font-size: 25px;
+  margin-top:-10px;
+  text-align: center;
 }
 
 /*koniec-opis*/
@@ -715,6 +792,7 @@ li {
 
   .about,
   .career,
+  .azja,
   .price,
   .bell {
     margin-left: -20px;
@@ -907,6 +985,7 @@ li {
 
   .about,
   .career,
+  .azja,
   .price,
   .bell {
     float: left;
@@ -1325,6 +1404,7 @@ li {
 
   .about,
   .career,
+  .azja,
   .price,
   .bell {
     float: left;
@@ -1726,6 +1806,7 @@ li {
 
   .about,
   .career,
+  .azja,
   .price,
   .bell {
     margin-left: -5px;
