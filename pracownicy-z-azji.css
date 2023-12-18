@@ -222,6 +222,7 @@ body {
 
   .bg{
     position: absolute;
+    width: 1700px;
   }
 
   .workers{
@@ -267,7 +268,7 @@ body {
     height: 250px;
     position: relative;
     top: -1100px;
-    left: 305%;
+    left: 1000px;
   }
 
   .big_one_forma{
@@ -275,7 +276,7 @@ body {
   }
 
   .forma_one{
-    margin-top: 15px;
+   margin-top: 15px;
    margin-bottom: 10px;
    padding-bottom: 5px;
    padding-top: 5px;
@@ -287,3 +288,224 @@ body {
    padding-bottom: 5px;
    padding-top: 5px;
   }
+
+
+
+  .text{
+    position: absolute;
+  }
+
+  .big_text_one{
+    position: relative;
+    top: -1300px;
+    left:0;
+  }
+  .big_text_two{
+    position: relative;
+    top: -1250px;
+    left:0;
+  }
+
+  .big_text_three{
+    position: relative;
+    top: -1200px;
+    left:0;
+  }
+
+  .big_text_four{
+    position: relative;
+    top: -1150px;
+    left:0;
+  }
+
+  .big_text_five{
+    position: relative;
+    top: -1100px;
+    left:0;
+  }
+
+  .big_text_six{
+    position: relative;
+    top: -1050px;
+    left:0;
+  }
+
+  .big_text_seven{
+    position: relative;
+    top: -1000px;
+    left:0;
+  }
+
+  .big_text_eight{
+    position: relative;
+    top: -900px;
+    left:0;
+  }
+
+  .big_text_nine{
+    position: relative;
+    top: -850px;
+    left:0;
+  }
+
+  /*footer*/
+
+.info {
+    position: relative;
+    width: 1600px;
+    height: 350px;
+    background-color: rgb(17, 63, 90);
+    margin-top: 1100px;
+    overflow: hidden;
+  }
+  
+  
+  .big_foot {
+    margin-top: -10px;
+    padding-left: 180px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .guide_one {
+    position: absolute;
+    top: 35px;
+    left: 950px;
+    fill: white;
+  }
+  
+  .guide_two {
+    width: 200px;
+    position: absolute;
+    top: 45px;
+    left: 1020px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .case {
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .case_one {
+    position: absolute;
+    top: 135px;
+    left: 400px;
+    fill: rgb(255, 255, 255);
+  }
+  
+  .case_two {
+    position: absolute;
+    top: 147px;
+    left: 480px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .farther {
+    position: absolute;
+    top: 135px;
+    left: 950px;
+    fill: rgb(69, 126, 231);
+  }
+  
+  .farther_one {
+    position: absolute;
+    top: 145px;
+    left: 1030px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .beyond {
+    position: absolute;
+    top: 135px;
+    left: 1180px;
+  }
+  
+  .beyond_one {
+    position: absolute;
+    top: 145px;
+    left: 1260px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .outside {
+    position: absolute;
+    top: 240px;
+    left: 950px;
+  }
+  
+  .outside_one {
+    position: absolute;
+    top: 250px;
+    left: 1030px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .outside_two {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    fill: white;
+  }
+  
+  .outside_tu_two {
+    position: absolute;
+    top: 260px;
+    left: 480px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .outside_free {
+    position: absolute;
+    top: 240px;
+    left: 1180px;
+    fill: rgb(10, 9, 9);
+  }
+  
+  .outside_to_free {
+    position: absolute;
+    top: 250px;
+    left: 1255px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .outside_vor {
+    position: absolute;
+    top: 245px;
+    left: 650px;
+    fill: rgb(240, 235, 241);
+  }
+  
+  .outside_to_vor {
+    position: absolute;
+    top: 260px;
+    left: 720px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  /*koniec-footer*/
