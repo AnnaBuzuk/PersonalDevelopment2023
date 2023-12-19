@@ -87,7 +87,7 @@ li {
 .third_part,
 .fifth_part,
 .thirdes_part {
-  margin-left: 155px;
+  margin-left: 135px;
   text-decoration: none;
   color: black;
   font-size: 30px;
@@ -104,7 +104,7 @@ li {
   height: 3px;
   background-color: rgb(36, 119, 167);
   width: 0;
-  left: 88%;
+  left: 83%;
   bottom: 0;
   transform: translateX(-50%);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -125,7 +125,7 @@ li {
   height: 3px;
   background-color: rgb(36, 119, 167);
   width: 0;
-  left: 85%;
+  left: 73%;
   bottom: 0;
   transform: translateX(-50%);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -136,8 +136,9 @@ li {
 }
 
 .second_part:hover::after {
-  width: 99px;
+  width: 159px;
 }
+
 
 
 .azja_part::after {
@@ -147,7 +148,7 @@ li {
   height: 3px;
   background-color: rgb(36, 119, 167);
   width: 0;
-  left: 75%;
+  left: 68%;
   bottom: 0;
   transform: translateX(-50%);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -158,7 +159,7 @@ li {
 }
 
 .azja_part:hover::after {
-  width: 250px;
+  width: 220px;
 }
 
 
@@ -169,7 +170,7 @@ li {
   height: 3px;
   background-color: rgb(36, 119, 167);
   width: 0;
-  left: 87%;
+  left: 83%;
   bottom: 0;
   transform: translateX(-50%);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -180,7 +181,7 @@ li {
 }
 
 .thirdes_part:hover::after {
-  width: 90px;
+  width: 75px;
 }
 
 .fifth_part::after {
@@ -488,7 +489,6 @@ li {
   border-color: #89898a;
   top: -350px;
   left: 110px;
-  
   color: rgb(7, 70, 122);
 }
 
@@ -610,9 +610,107 @@ margin-bottom: -50px;
   font-size: 25px;
   margin-top:-10px;
   text-align: center;
+
 }
 
 /*koniec-opis*/
+
+.zone{
+  width: 1600px;
+  height: 300px;
+  background-color: rgba(58, 57, 57, 0.027);
+  border-style: solid;
+  border-color: #89898a;
+}
+
+.zone_one{
+  text-align: center;
+  color: rgb(7, 70, 122);
+  font-size: 45px;
+  padding-top: 15px;
+}
+
+.zone_two{
+  text-align: center;
+  color: rgb(7, 70, 122);
+  font-size: 30px;
+}
+
+.zone_three {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 0px 545px;
+  position: relative;
+  color:  rgb(7, 70, 122);
+  border: 1px solid  rgb(7, 70, 122);
+  background: none;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 500px;
+}
+
+.zone_three:before,
+.zone_three:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+.zone_three:before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid  rgb(7, 70, 122);
+  border-top: 1px solid  rgb(7, 70, 122);
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+
+.zone_three:after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid  rgb(7, 70, 122);
+  border-bottom: 1px solid  rgb(7, 70, 122);
+  transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
+}
+
+.zone_three:hover:before,
+.zone_three:hover:after {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.zone_three:hover:before {
+  transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+
+.zone_three:hover:after {
+  transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+}
+
+.zone_three:hover {
+  background:  rgba(7, 70, 122, 0.096);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer*/
 
 .info {
@@ -620,7 +718,7 @@ margin-bottom: -50px;
   width: 1600px;
   height: 350px;
   background-color: rgb(17, 63, 90);
-  margin-top: 250px;
+  margin-top: 50px;
   overflow: hidden;
 }
 
@@ -681,62 +779,62 @@ margin-bottom: -50px;
 
 .farther {
   position: absolute;
-  top: 40px;
-  left: 950px;
+  top: 45px;
+  left: 1070px;
   fill: rgb(69, 126, 231);
 }
 
 .farther_one {
   position: absolute;
-  top: 50px;
-  left: 1030px;
-  font-size: 25px;
+  top: 52px;
+  left: 1120px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
 
 .beyond {
   position: absolute;
-  top: 105px;
-  left: 950px;
+  top: 86px;
+  left: 1070px;
 }
 
 .beyond_one {
   position: absolute;
-  top: 110px;
-  left: 1030px;
-  font-size: 24px;
+  top: 93px;
+  left: 1120px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
 
 .outside {
   position: absolute;
-  top: 168px;
-  left: 955px;
+  top: 130px;
+  left: 1073px;
 }
 
 .outside_one {
   position: absolute;
-  top: 170px;
-  left: 1030px;
-  font-size: 25px;
+  top: 135px;
+  left: 1123px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
 
 .outside_two {
   position: absolute;
-  top: 250px;
-  left: 400px;
+  top: 155px;
+  left: 1055px;
   fill: white;
 }
 
 .outside_tu_two {
   position: absolute;
-  top: 260px;
-  left: 480px;
-  font-size: 25px;
+  top: 180px;
+  left: 1125px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
@@ -744,34 +842,47 @@ margin-bottom: -50px;
 
 .outside_free {
   position: absolute;
-  top: 240px;
-  left: 1180px;
-  fill: rgb(10, 9, 9);
+  top: 260px;
+  left: 1080px;
+  fill: rgb(10, 9, 9);fill: white;
 }
 
 .outside_to_free {
   position: absolute;
-  top: 250px;
-  left: 1255px;
-  font-size: 25px;
+  top: 260px;
+  left: 1127px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
 
 .outside_vor {
   position: absolute;
-  top: 245px;
-  left: 650px;
+  top: 212px;
+  left: 1070px;
   fill: rgb(240, 235, 241);
 }
 
 .outside_to_vor {
   position: absolute;
-  top: 260px;
-  left: 720px;
-  font-size: 25px;
+  top: 220px;
+  left: 1125px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
+}
+
+
+.social{
+  position: relative;
+  top:-63px;
+  left:870px;
+
+}
+
+.social_one{
+color: white;
+font-size: 30px;
 }
 
 
@@ -784,21 +895,9 @@ margin-bottom: -50px;
             
                   
 
-                    <svg class="outside_two">
-                        <use href="./sprite.svg#icon-iconmonstr-linkedin-3" width="50" height="50"></use>
-                    </svg>
-                    <a href="https://www.linkedin.com/in/personal-development-sp-z-o-o-611285266/"
-                        class="outside_tu_two">Linkedin</a>
-                    <svg class="outside_vor">
-                        <use href="./sprite.svg#icon-icons8-instagram" width="55" height="55"></use>
-                    </svg>
-                    <a href="https://instagram.com/annadevelopment?igshid=YTQwZjQ0NmI0OA=="
-                        class="outside_to_vor">Instagram</a>
-                    <svg class="outside_free">
-                        <use href="./sprite.svg#icon-tiktok" width="50" height="50"></use>
-                    </svg>
-                    <a href="https://www.tiktok.com/@annadevelopment3?_t=8fg3IkhUgYy&_r=1" class="outside_to_free">Tik
-                        Tok</a>
+                  
+                    
+                 
 
 
 
