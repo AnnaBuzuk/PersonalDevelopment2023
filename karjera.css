@@ -657,6 +657,60 @@ li {
 }
 
 /*koniec-pomocnik-spawacza*/
+/*operator-na-maszyny*/
+
+.unit_nine {
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: 280px;
+  background: #e8e8e8;
+  border-radius: 2%;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
+  margin-left: 1100px;
+  margin-top: 800px;
+}
+
+
+.unit_nine_name {
+  color: rgb(7, 70, 122);
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.unit_nine_sity {
+  color: rgb(7, 70, 122);
+  position: relative;
+  font-size: 20px;
+  padding-left: 78px;
+  padding-top: 20px;
+}
+.unit_nine_passing{
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  background-color: rgb(7, 70, 122);
+  color: rgb(237, 233, 241);
+  text-decoration: none;
+  left: 60px;
+  font-size: 24px;
+  top: 195px;
+  padding-top: 13px;
+  padding-left: 10px;
+  border-radius: 2%;
+  box-shadow: 0 5px 15px 0 rgb(12, 11, 12);
+  transition: 0.5s;
+}
+
+
+.unit_nine_passing:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 40px 0 rgb(15, 15, 15);
+}
+
+
 
 
 /*wniosek*/
