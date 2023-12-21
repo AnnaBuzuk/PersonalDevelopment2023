@@ -88,7 +88,7 @@ li {
 .third_part,
 .fifth_part,
 .thirdes_part {
-  margin-left: 135px;
+  margin-left: 140px;
   text-decoration: none;
   color: black;
   font-size: 25px;
@@ -105,7 +105,7 @@ li {
   height: 3px;
   background-color: rgb(36, 119, 167);
   width: 0;
-  left: 83%;
+  left: 71%;
   bottom: 0;
   transform: translateX(-50%);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -116,10 +116,55 @@ li {
 }
 
 .first_part:hover::after {
-  width: 70px;
+  width: 160px;
 }
 
 .second_part::after {
+  content: '';
+  position: absolute;
+  margin-bottom: -10px;
+  height: 3px;
+  background-color: rgb(36, 119, 167);
+  width: 0;
+  left: 75%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.second_part:hover {
+  color: rgb(0, 132, 255);
+}
+
+.second_part:hover::after {
+  width: 135px;
+}
+
+
+
+.azja_part::after {
+  content: '';
+  position: absolute;
+  margin-bottom: -10px;
+  height: 3px;
+  background-color: rgb(36, 119, 167);
+  width: 0;
+  left: 70%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.azja_part:hover {
+  color: rgb(0, 132, 255);
+}
+
+.azja_part:hover::after {
+  width: 195px;
+}
+
+
+.thirdes_part::after {
   content: '';
   position: absolute;
   margin-bottom: -10px;
@@ -132,57 +177,12 @@ li {
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
 }
 
-.second_part:hover {
-  color: rgb(0, 132, 255);
-}
-
-.second_part:hover::after {
-  width: 159px;
-}
-
-
-
-.azja_part::after {
-  content: '';
-  position: absolute;
-  margin-bottom: -10px;
-  height: 3px;
-  background-color: rgb(36, 119, 167);
-  width: 0;
-  left: 68%;
-  bottom: 0;
-  transform: translateX(-50%);
-  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-}
-
-.azja_part:hover {
-  color: rgb(0, 132, 255);
-}
-
-.azja_part:hover::after {
-  width: 220px;
-}
-
-
-.thirdes_part::after {
-  content: '';
-  position: absolute;
-  margin-bottom: -10px;
-  height: 3px;
-  background-color: rgb(36, 119, 167);
-  width: 0;
-  left: 83%;
-  bottom: 0;
-  transform: translateX(-50%);
-  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-}
-
 .thirdes_part:hover {
   color: rgb(0, 132, 255);
 }
 
 .thirdes_part:hover::after {
-  width: 75px;
+  width: 160px;
 }
 
 .fifth_part::after {
@@ -192,7 +192,7 @@ li {
   height: 3px;
   background-color: rgb(36, 119, 167);
   width: 0;
-  left: 83%;
+  left: 80%;
   bottom: 0;
   transform: translateX(-50%);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
@@ -203,18 +203,10 @@ li {
 }
 
 .fifth_part:hover::after {
-  width: 120px;
+  width: 100px;
 }
 
 
-.fifth_part {
-
-  margin-left: 228px;
-  text-decoration: none;
-  font-size: large;
-  font-size: 27px;
-  color: rgb(7, 70, 122);
-}
 
 
 /*koniec header*/
@@ -241,6 +233,7 @@ li {
   text-align: center;
   padding-top: 40px;
   color: white;
+  font-size: 30px; 
 }
 
 .job_but {
@@ -402,6 +395,7 @@ li {
   text-align: center;
   padding-top: 30px;
   color: white;
+  font-size: 30px;
 }
 
 .bos_but {
