@@ -231,17 +231,17 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 170px;
+  margin-left: 130px;
 }
 
 .unit_one_name {
   color: rgb(7, 70, 122);
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -256,14 +256,14 @@ li {
 
 .unit_one_passing {
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
-  left: 60px;
-  font-size: 24px;
-  top: 195px;
+  left: 70px;
+  font-size: 22px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -287,18 +287,18 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 620px;
+  margin-left: 480px;
 }
 
 
 .unit_two_name {
   color: rgb(7, 70, 122);
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -306,20 +306,20 @@ li {
   color: rgb(7, 70, 122);
   position: relative;
   font-size: 20px;
-  padding-left: 70px;
-  margin-top: 20px;
+  padding-left: 90px;
+  margin-top: 0px;
 }
 
 .unit_two_passing {
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
-  left: 60px;
+  left: 70px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -343,18 +343,18 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 1100px;
+  margin-left: 830px;
 }
 
 
 .unit_three_name {
   color: rgb(7, 70, 122);
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -364,20 +364,20 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 110px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 
 .unit_three_passing {
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
-  left: 60px;
+  left: 70px;
   font-size: 24px;
-  top: 195px;
+  top: 140px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -401,19 +401,19 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 170px;
-  margin-top: 400px;
+  margin-left: 1185px;
+
 }
 
 
 .unit_four_name {
   color: rgb(7, 70, 122);
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -423,23 +423,23 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 0px;
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
 }
 
 
 .unit_four_passing {
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
-  padding-left: 10px;
+  padding-left: 20px;
   border-radius: 2%;
   box-shadow: 0 5px 15px 0 rgb(12, 11, 12);
   transition: 0.5s;
@@ -460,19 +460,19 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 620px;
-  margin-top: 400px;
+  margin-left: 130px;
+  margin-top: 300px;
 }
 
 
 .unit_five_name {
   color: rgb(7, 70, 122);
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -482,20 +482,20 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 120px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 
 .unit_five_passing {
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
-  left: 60px;
+  left: 70px;
   font-size: 24px;
-  top: 195px;
+  top: 140px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -519,12 +519,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 1100px;
-  margin-top: 400px;
+  margin-left: 480px;
+  margin-top: 300px;
 }
 
 
@@ -541,21 +541,21 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 0px;
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: center;
 }
 
 
 .unit_six_passing {
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -582,12 +582,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 170px;
-  margin-top: 800px;
+  margin-left: 830px;
+  margin-top: 300px;
 }
 
 
@@ -604,21 +604,21 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 0px;
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: center;
 }
 
 
 .unit_seven_passing {
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -641,12 +641,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 620px;
-  margin-top: 800px;
+  margin-left: 1180px;
+  margin-top: 300px;
 }
 
 
@@ -670,14 +670,14 @@ li {
 
 .unit_eight_passing {
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -698,12 +698,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 1100px;
-  margin-top: 800px;
+  margin-left: 130px;
+  margin-top: 600px;
 }
 
 
@@ -720,18 +720,18 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 110px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .unit_nine_passing{
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -753,12 +753,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 165px;
-  margin-top: 1200px;
+  margin-left: 480px;
+  margin-top: 600px;
 }
 
 
@@ -775,18 +775,18 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 110px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .unit_ten_passing{
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -809,12 +809,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 620px;
-  margin-top: 1200px;
+  margin-left: 830px;
+  margin-top: 600px;
 }
 
 
@@ -831,18 +831,18 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 110px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .unit_eleven_passing{
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -864,12 +864,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 1095px;
-  margin-top: 1200px;
+  margin-left: 1180px;
+  margin-top: 600px;
 }
 
 
@@ -886,18 +886,18 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 110px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .unit_twelve_passing{
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -917,12 +917,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 165px;
-  margin-top: 1590px;
+  margin-left: 130px;
+  margin-top: 890px;
 }
 
 
@@ -939,18 +939,18 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 110px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .unit_thirteen_passing{
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -970,12 +970,12 @@ li {
   display: inline-block;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 220px;
   background: #e8e8e8;
   border-radius: 2%;
   box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
-  margin-left: 620px;
-  margin-top: 1590px;
+  margin-left: 480px;
+  margin-top: 890px;
 }
 
 
@@ -992,18 +992,18 @@ li {
   position: relative;
   font-size: 20px;
   padding-left: 110px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .unit_fourteen_passing{
   position: absolute;
-  width: 180px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(7, 70, 122);
   color: rgb(237, 233, 241);
   text-decoration: none;
   left: 60px;
   font-size: 24px;
-  top: 195px;
+  top: 145px;
   padding-top: 13px;
   padding-left: 10px;
   border-radius: 2%;
@@ -1030,7 +1030,7 @@ li {
   position: relative;
   width: 1000px;
   height: 500px;
-  top: 1950px;
+  top: 1150px;
   left: 300px;
   font-size: 40px;
   text-align: center;
@@ -1050,7 +1050,7 @@ li {
   width: 1600px;
   height: 350px;
   background-color: rgb(17, 63, 90);
-  margin-top: 2150px;
+  margin-top: 1350px;
   overflow: hidden;
 }
 
