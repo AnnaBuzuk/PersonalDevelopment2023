@@ -1019,6 +1019,335 @@ li {
 
 /*koniec-slusarz*/
 
+/*operator_UDT*/
+
+.unit_fifteen{
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  background: #e8e8e8;
+  border-radius: 2%;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
+  margin-left: 830px;
+  margin-top: 890px;
+}
+
+
+.unit_fifteen_name {
+  color: rgb(7, 70, 122);
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.unit_fifteen_sity {
+  color: rgb(7, 70, 122);
+  position: relative;
+  font-size: 20px;
+  padding-left: 110px;
+  padding-top: 30px;
+}
+.unit_fifteen_passing{
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: rgb(7, 70, 122);
+  color: rgb(237, 233, 241);
+  text-decoration: none;
+  left: 60px;
+  font-size: 24px;
+  top: 145px;
+  padding-top: 13px;
+  padding-left: 10px;
+  border-radius: 2%;
+  box-shadow: 0 5px 15px 0 rgb(12, 11, 12);
+  transition: 0.5s;
+}
+
+
+.unit_fifteen_passing:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 40px 0 rgb(15, 15, 15);
+}
+/*koniec-operator_UDT*/
+
+
+/*operator_na _maszynu*/
+.unit_sixteen{
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  background: #e8e8e8;
+  border-radius: 2%;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
+  margin-left: 1180px;
+  margin-top: 890px;
+}
+
+
+.unit_sixteen_name {
+  color: rgb(7, 70, 122);
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.unit_sixteen_sity {
+  color: rgb(7, 70, 122);
+  position: relative;
+  font-size: 20px;
+  padding-left: 110px;
+  padding-top: 30px;
+}
+.unit_sixteen_passing{
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: rgb(7, 70, 122);
+  color: rgb(237, 233, 241);
+  text-decoration: none;
+  left: 60px;
+  font-size: 24px;
+  top: 145px;
+  padding-top: 13px;
+  padding-left: 10px;
+  border-radius: 2%;
+  box-shadow: 0 5px 15px 0 rgb(12, 11, 12);
+  transition: 0.5s;
+}
+
+
+.unit_sixteen_passing:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 40px 0 rgb(15, 15, 15);
+}
+/*koniec_operator_na_maszynu*/
+
+/*operator-bez-opyta*/
+
+
+.unit_seventeen{
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  background: #e8e8e8;
+  border-radius: 2%;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
+  margin-left: 130px;
+  margin-top: 1190px;
+}
+
+
+.unit_seventeen_name {
+  color: rgb(7, 70, 122);
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.unit_seventeen_sity {
+  color: rgb(7, 70, 122);
+  position: relative;
+  font-size: 20px;
+  padding-left: 110px;
+  padding-top: 30px;
+}
+.unit_seventeen_passing{
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: rgb(7, 70, 122);
+  color: rgb(237, 233, 241);
+  text-decoration: none;
+  left: 60px;
+  font-size: 24px;
+  top: 145px;
+  padding-top: 13px;
+  padding-left: 10px;
+  border-radius: 2%;
+  box-shadow: 0 5px 15px 0 rgb(12, 11, 12);
+  transition: 0.5s;
+}
+
+
+.unit_seventeen_passing:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 40px 0 rgb(15, 15, 15);
+}
+
+
+
+/*koniec-operator-bez-opyta*/
+/*operator-robota-spawalniczego*/
+.unit_eighteen{
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  background: #e8e8e8;
+  border-radius: 2%;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
+  margin-left: 480px;
+  margin-top: 1190px;
+}
+
+
+.unit_eighteen_name {
+  color: rgb(7, 70, 122);
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.unit_eighteen_sity {
+  color: rgb(7, 70, 122);
+  position: relative;
+  font-size: 20px;
+  padding-left: 110px;
+  padding-top: 30px;
+}
+.unit_eighteen_passing{
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: rgb(7, 70, 122);
+  color: rgb(237, 233, 241);
+  text-decoration: none;
+  left: 60px;
+  font-size: 24px;
+  top: 145px;
+  padding-top: 13px;
+  padding-left: 10px;
+  border-radius: 2%;
+  box-shadow: 0 5px 15px 0 rgb(12, 11, 12);
+  transition: 0.5s;
+}
+
+
+.unit_eighteen_passing:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 40px 0 rgb(15, 15, 15);
+}
+
+
+
+/*koniec-operator-robota-spawalniczego*/
+
+/*spawacz-111*/
+.unit_nineteen{
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  background: #e8e8e8;
+  border-radius: 2%;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
+  margin-left: 830px;
+  margin-top: 1190px;
+}
+
+
+.unit_nineteen_name {
+  color: rgb(7, 70, 122);
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.unit_nineteen_sity {
+  color: rgb(7, 70, 122);
+  position: relative;
+  font-size: 20px;
+  padding-left: 110px;
+  padding-top: 30px;
+}
+.unit_nineteen_passing{
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: rgb(7, 70, 122);
+  color: rgb(237, 233, 241);
+  text-decoration: none;
+  left: 60px;
+  font-size: 24px;
+  top: 145px;
+  padding-top: 13px;
+  padding-left: 10px;
+  border-radius: 2%;
+  box-shadow: 0 5px 15px 0 rgb(12, 11, 12);
+  transition: 0.5s;
+}
+
+
+.unit_nineteen_passing:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 40px 0 rgb(15, 15, 15);
+}
+/*koniec-spawacz-111*/
+.unit_twenty{
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  background: #e8e8e8;
+  border-radius: 2%;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .5);
+  margin-left: 1180px;
+  margin-top: 1190px;
+}
+
+
+.unit_twenty_name {
+  color: rgb(7, 70, 122);
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.unit_twenty_sity {
+  color: rgb(7, 70, 122);
+  position: relative;
+  font-size: 20px;
+  padding-left: 110px;
+  padding-top: 30px;
+}
+.unit_twenty_passing{
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: rgb(7, 70, 122);
+  color: rgb(237, 233, 241);
+  text-decoration: none;
+  left: 60px;
+  font-size: 24px;
+  top: 145px;
+  padding-top: 13px;
+  padding-left: 10px;
+  border-radius: 2%;
+  box-shadow: 0 5px 15px 0 rgb(12, 11, 12);
+  transition: 0.5s;
+}
+
+
+.unit_twenty_passing:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 40px 0 rgb(15, 15, 15);
+}
+/*pomocnik-montera*/
+
+
+
+/*koniec-pomocnik-montera*/
+
 /*wniosek*/
 .conclusion {
   position: absolute;
@@ -1030,7 +1359,7 @@ li {
   position: relative;
   width: 1000px;
   height: 500px;
-  top: 1150px;
+  top: 1450px;
   left: 300px;
   font-size: 40px;
   text-align: center;
@@ -1050,7 +1379,7 @@ li {
   width: 1600px;
   height: 350px;
   background-color: rgb(17, 63, 90);
-  margin-top: 1350px;
+  margin-top: 1750px;
   overflow: hidden;
 }
 
