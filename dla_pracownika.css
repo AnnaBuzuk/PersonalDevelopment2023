@@ -4,6 +4,8 @@ body{
     width: 1600px;  
     height: auto;
     font-family: 'Playfair Display', serif;
+    color: rgb(7, 70, 122);
+    font-weight: bold;
     }
     
     header,
@@ -214,20 +216,50 @@ body{
 
 
 
+/*o nas*/
+
+
+.description{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.big_services{
+  
+}
+
+.services{
+  font-size: 20px;
+  margin-left: 15px;
+}
 
 
 
 
 
 
+/*koniec o nas*/
 
 
+/*Zamieszkanie*/
 
+.housing{
+  margin-top: 70px;
+  margin-left: 15px; 
+  font-size: 20px;
+}
 
-
-
-
-
+.pic{
+  display: inline;
+  margin-left: 20px;
+  border-radius: 3%
+  
+  
+  
+  ;
+}
 
 
 
