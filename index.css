@@ -4,7 +4,7 @@
   width: 1600px;
   height: auto;
   overflow-x: hidden;
-  background-color: #89898a07;
+  
 }
 
 header,
@@ -492,6 +492,16 @@ li {
   margin-left: 30%;
   margin-top: 5%;
 margin-bottom: -50px;
+width: 100px;
+
+}
+
+.count_one:hover{
+fill: rgb(7, 70, 122);
+}
+
+.figure_one:hover{
+  fill: rgb(7, 70, 122);
 }
 
 
@@ -528,6 +538,11 @@ margin-bottom: -50px;
   margin-left: 33%;
   margin-top: 5%;
 margin-bottom: -50px;
+width: 100px;
+}
+
+.quanity_one:hover{
+  fill: rgb(7, 70, 122);
 }
 
 .quanity_two{
@@ -562,6 +577,7 @@ margin-bottom: -50px;
   margin-left: 33%;
   margin-top: 5%;
   margin-bottom: -50px; 
+  width: 100px;
 }
 
 .figure_two{
@@ -593,6 +609,11 @@ margin-bottom: -50px;
   margin-left: 33%;
   margin-top: 5%;
   margin-bottom: -50px; 
+  width: 100px;
+}
+
+.nubr_one:hover{
+  fill: rgb(7, 70, 122);
 }
 
 .nubr_two{

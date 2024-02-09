@@ -255,16 +255,15 @@ body{
     }
     
     .aesily{
-    font-size: 20px;
-    font-family: Noto Sans, sans-serif;
-    margin-bottom: 70px;
-    margin-left: 50px;
+    font-size: 23px;
+    margin-bottom: 40px;
+    margin-left: 5px;
     }
     
     .simply{
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-family: Noto Sans, sans-serif;
+    font-size: 23px;
+    margin-bottom: 30px;
+   
     }
     
     .strip_two{
@@ -276,22 +275,21 @@ body{
     }
     
     .readli{
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-family: Noto Sans, sans-serif;
+    font-size: 23px;
+    margin-bottom: 30px;
+  
     }
     
     .mild_one{
-    font-size: 20px;
+    font-size: 21px;
     margin-left: 30px;
     }
     
     
     /*szkolenie*/
     .mild_two{
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 20px;
-    font-family: Noto Sans, sans-serif;  
     }
     
     
@@ -310,9 +308,9 @@ body{
     }
     
     .share_one{
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 10px;
-    font-family: Noto Sans, sans-serif;
+    
     }
     /*konies-szlokinie*/
     
@@ -350,9 +348,9 @@ body{
     font-size: 30px;
     }
     .whole_two{
-    font-size: 20px;
+    font-size: 23px;
     margin-left: 30px;
-    font-family: Noto Sans, sans-serif;
+  
     }
     /*koniec-RBH*/
     
@@ -372,15 +370,16 @@ body{
     /*Sczegoly*/
     
     .colophon,.name_me,.business{
+      margin-top: 15px;
     color: rgb(7, 70, 122);
-    font-size: 25px;  
+    font-size: 23px;  
     font-weight: bold;
     }
     
     .business_tel{
     text-decoration: none;
     color: rgb(7, 70, 122);
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;  
     }
     
